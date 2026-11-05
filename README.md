@@ -1,8 +1,5 @@
-# Kamus-Neutronik-Nuklir-
-
+# <center> **Analisis Reaktor Nuklir** </center>
 *Dhiya Salma Salsabila*
-
-Catatan selama kuliah dan baca paper yang di jadikan satu serta bantuan AI dalam merapihkannya dan menerjemahkan beberapa bagian
 
 ## **Reaksi Nuklir**
 Dalam teras reaktor nuklir, populasi dan distribusi neutron sangat penting dan di tentukan dengan reaksi nuklir yang terjadi, dalam analisis reaktor nuklir ada 3 jenis reaksi yang penting :
@@ -10,15 +7,15 @@ Dalam teras reaktor nuklir, populasi dan distribusi neutron sangat penting dan d
 
     Persamaan umum dari suatu reaksi fisi nuklir adalah sebagai berikut :
 
-    $$\vphantom{1}_0^1n + \vphantom{X}_{Z1}^{A1}X \rightarrow \vphantom{Y}_{Z2}^{A2}Y + \vphantom{Z}_{Z3}^{A3}Z + \text{neutron} + \text{energi}$$
+$${}_{0}^{1}n + {}_{Z1}^{A1}X \rightarrow {}_{Z2}^{A2}Y + {}_{Z3}^{A3}Z + \text{neutron} + \text{energi}$$
 
     Beberapa contoh reaksi fisi U235 adalah sebagai berikut :
 
-    $$\vphantom{1}_0^1n + \vphantom{U}_{92}^{235}U \rightarrow \vphantom{X}_{54}^{140}Xe + \vphantom{S}_{38}^{94}Sr + 2\vphantom{1}_0^1n + 200\text{ MeV}$$
+$${}_{0}^{1}n + {}_{92}^{235}U \rightarrow {}_{54}^{140}Xe + {}_{38}^{94}Sr + 2{}_{0}^{1}n + 200\text{ MeV}$$
 
-    $$\vphantom{1}_0^1n + \vphantom{U}_{92}^{235}U \rightarrow \vphantom{C}_{55}^{140}Cs + \vphantom{R}_{37}^{93}Rb + 3\vphantom{1}_0^1n + 200\text{ MeV}$$
+$${}_{0}^{1}n + {}_{92}^{235}U \rightarrow {}_{55}^{140}Cs + {}_{37}^{93}Rb + 3{}_{0}^{1}n + 200\text{ MeV}$$
 
-    $$\vphantom{1}_0^1n + \vphantom{U}_{92}^{235}U \rightarrow \vphantom{B}_{56}^{141}Ba + \vphantom{K}_{36}^{92}Kr + 3\vphantom{1}_0^1n + 200\text{ MeV}$$
+$${}_{0}^{1}n + {}_{92}^{235}U \rightarrow {}_{56}^{141}Ba + {}_{36}^{92}Kr + 3{}_{0}^{1}n + 200\text{ MeV}$$
 
 2. Reaksi penangkapan neutron, disebut juga reaksi penangkapan radiatif karena menghasilkan radiasi gamma ketika inti atom metastabil hasil reaksi bertransformasi menjadi inti atom lain yang stabil dengan melepaskan sebagaian energi dalam bentu radiasi gamma.
 
@@ -26,11 +23,11 @@ Dalam teras reaktor nuklir, populasi dan distribusi neutron sangat penting dan d
 
     Persamaan umum dari reaksi penangkapan neutron adalah sebagai berikut :
 
-    $${}_{0}^{1}n + {}_{Z}^{A}X \rightarrow \left( {}_{Z}^{A+1}X \right)^{*} \rightarrow {}_{Z}^{A+1}X + {}_{0}^{0}\gamma \qquad $$
+$${}_{0}^{1}n + {}_{Z}^{A}X \rightarrow \left( {}_{Z}^{A+1}X \right)^{*} \rightarrow {}_{Z}^{A+1}X + {}_{0}^{0}\gamma \qquad $$
 
     Contoh reaksi penangkapan neutron adalah sebagai berikut :
 
-    $${}_{0}^{1}n + {}_{1}^{1}H \rightarrow \left( {}_{1}^{2}H \right)^{*} \rightarrow {}_{1}^{2}H + {}_{0}^{0}\gamma \qquad$$
+$${}_{0}^{1}n + {}_{1}^{1}H \rightarrow \left( {}_{1}^{2}H \right)^{*} \rightarrow {}_{1}^{2}H + {}_{0}^{0}\gamma \qquad$$
 
 3. Reaksi hamburan neutron, terjadi saat neutron datang menabrak inti atom tetapi tidak terjadi transformasi/perubahan nuklir setelah terjadi tumbukkan. Neutron hanya terhambur tetapi energi dan keadaan neutron bisa saja berubah.
 
@@ -39,12 +36,12 @@ Dalam teras reaktor nuklir, populasi dan distribusi neutron sangat penting dan d
 
     Persamaan umumnya adalah sebagai berikut :
 
-    $${}_{0}^{1}n + {}_{Z}^{A}X \rightarrow {}_{Z}^{A}X + {}_{0}^{1}n$$
+$${}_{0}^{1}n + {}_{Z}^{A}X \rightarrow {}_{Z}^{A}X + {}_{0}^{1}n$$
     - Reaksi hamburan inelastik, terjadi bila energi atau keadaan neutron dan inti atom mengalami perubahan setelah mengalami tumbukan.
 
     Persamaan umumnya adalah sebagai berikut :
 
-    $${}_{0}^{1}n + {}_{Z}^{A}X \rightarrow \left( {}_{Z}^{A}X \right)^{*} + {}_{0}^{1}n \rightarrow {}_{Z}^{A}X + {}_{0}^{1}n + {}_{0}^{0}\gamma \qquad $$
+$${}_{0}^{1}n + {}_{Z}^{A}X \rightarrow \left( {}_{Z}^{A}X \right)^{*} + {}_{0}^{1}n \rightarrow {}_{Z}^{A}X + {}_{0}^{1}n + {}_{0}^{0}\gamma \qquad $$
 
 > Dalam reaktor nuklir, neutron menjadi sangat penting karena dapat menyebabkan reaksi fisi. Dengan mengetahui perilaku neutron maka dapat menentukan seberapa sering reaksi fisi terjadi. Hal ini juga sebanding dengan energi yang dihasilkan.
 
@@ -122,33 +119,33 @@ $$ \begin{aligned}
 
 - Fungsi fungsi dasar teori transport neutron
 1. Kerapatan sudut neutron (Neutron angular density), ialah jumlah neutron persatuan volume di sekitar titik r persatuan energi disekitar E dan persatuan sudut di sekitar arah $\Omega$ pada waktu t. Secara matematis jumlah neutron dalam elemen ruang
-    $$ n(r,E,\Omega,t) drdEd\Omega$$
+$$ n(r,E,\Omega,t) drdEd\Omega$$
     Dengan integrasi kerapatan sudut neutron ke seluruh arah sudut di dapatkan
-    $$ n(r,E,t) = \int_{4\pi} n(r,E,\Omega,t) d\Omega $$
+$$ n(r,E,t) = \int_{4\pi} n(r,E,\Omega,t) d\Omega $$
 2. Fluks sudut neutron (Neutron angular flux), mempresentasikan total panjang lintasan yang ditempuh persatuan waktu oleh neutron dalam satuan volume di sekitar r dengan energi E dan arah $\Omega$. Hal ini dapat di definisikan sebagai produk dari kerapatan sudut neutron dan besarnya kecepatan neutron.
-    $$ \phi (r,E,\Omega,t) = v \ n \ (r,E,\Omega,t)$$
+$$ \phi (r,E,\Omega,t) = v \ n \ (r,E,\Omega,t)$$
     Dengan mengintegrasikan fluks sudut ke segala arah maka di dapat
-    $$ \phi(r,E,t) = \int_{4\pi} \phi(r,E,\Omega,t) d\Omega $$
+$$ \phi(r,E,t) = \int_{4\pi} \phi(r,E,\Omega,t) d\Omega $$
 3. Arus neutron (Neutron current), laju aliran neutron yang melewati suatu permukaan, misalkan n adalah sebuah vektor yang tegak lurus terhadap elemen permukaan dS di titik r. Maka jumlah neutron yang bergerak ke arah $\Omega$ dengan energi E yang melewati dS persatuan waktu dapat dirumuskan :
-    $$ n (r,E,\Omega) v |\Omega.n|dS $$
+$$ n (r,E,\Omega) v |\Omega.n|dS $$
     untuk menghitung aliran total maka didefinisikan arus parsial
      - arus parsial positif
-        $$ J_n^+ dS = \int_{(\Omega,n)>0} n (r,E,\Omega) v |\Omega.n| d\Omega$$
-        $$ J_n^+ dS = \int_{(\Omega,n)>0} |\Omega.n| \phi (r,E,\Omega)  d\Omega$$
+$$ J_n^+ dS = \int_{(\Omega,n)>0} n (r,E,\Omega) v |\Omega.n| d\Omega$$
+$$ J_n^+ dS = \int_{(\Omega,n)>0} |\Omega.n| \phi (r,E,\Omega)  d\Omega$$
      - arus parsial negatif
-         $$ J_n^- dS= \int_{(\Omega,n)<0} |\Omega.n| \phi (r,E,\Omega) d\Omega$$
+$$ J_n^- dS= \int_{(\Omega,n)<0} |\Omega.n| \phi (r,E,\Omega) d\Omega$$
     maka arus bersih
-      $$ J_n (r,E) dS = (J_n^+ - J_n^-)dS = dS \int_{4\pi} (\Omega.n) \phi(r,E,\Omega) d\Omega$$
-      $$ J_n (r,E) dS = dS \ n \int_{4\pi} (\Omega) \phi(r,E,\Omega) d\Omega$$
+$$ J_n (r,E) dS = (J_n^+ - J_n^-)dS = dS \int_{4\pi} (\Omega.n) \phi(r,E,\Omega) d\Omega$$
+$$ J_n (r,E) dS = dS \ n \int_{4\pi} (\Omega) \phi(r,E,\Omega) d\Omega$$
     misalkan
-      $$ J(r,E) = \int_{4\pi} \Omega \phi(r,E,\Omega) d\Omega$$
+$$ J(r,E) = \int_{4\pi} \Omega \phi(r,E,\Omega) d\Omega$$
     maka persamaan dapat di tulis
-      $$ J_n (r,E) = J (r,E) n $$
+$$ J_n (r,E) = J (r,E) n $$
 
 - Penurunan persamaan transport neutron orde pertama
 
     Dikenal sebagai persamaan Transport Boltzman, prinsip ini menyatakan bahwa laju perubahan jumlah neutron dalam suatu volume yang infinite harus sama dengan laju generasi neutron di kurangi laju kehilangan neutron dari volume tersebut yang dirumuskan dalam :
-            $$ \frac{\partial n}{\partial t} = Q - L - R$$
+$$ \frac{\partial n}{\partial t} = Q - L - R$$
             Dimana
     - $\frac{\partial n}{\partial t}$ : laju perubahan kerapatan neutron
     - Q : laju generasi/produksi neutron
@@ -159,54 +156,54 @@ $$ \begin{aligned}
 
         Menurut definisi fluks sudut, jumlah neutron dengan energi antara $E$ dan $E+\text{d}E$ yang memasuki pias volume $\text{d}V$ melalui $\text{d}A$ per satuan waktu dalam kerucut arah $\text{d}\mathbf{\Omega}$ di sekitar arah $\mathbf{\Omega}$ adalah
 
-        $$ \phi(\mathbf{r}_0 + s\mathbf{\Omega}, E, \mathbf{\Omega}, t)\text{d}A\text{d}E\text{d}\mathbf{\Omega} \qquad $$
+$$ \phi(\mathbf{r}_0 + s\mathbf{\Omega}, E, \mathbf{\Omega}, t)\text{d}A\text{d}E\text{d}\mathbf{\Omega} \qquad $$
 
         Sedangkan jumlah neutron yang keluar dari pias volume tersebut adalah
 
-        $$ \phi(\mathbf{r}_0 + (s+\text{d}s)\mathbf{\Omega}, E, \mathbf{\Omega}, t)\text{d}A\text{d}E\text{d}\mathbf{\Omega} \qquad  $$
+$$ \phi(\mathbf{r}_0 + (s+\text{d}s)\mathbf{\Omega}, E, \mathbf{\Omega}, t)\text{d}A\text{d}E\text{d}\mathbf{\Omega} \qquad  $$
 
         Oleh karena itu, jumlah neutron yang bocor dari pias volume tersebut adalah
 
         Tuliskan $\Phi(s)=\phi(\mathbf{r}_0+s\mathbf{\Omega},E,\mathbf{\Omega},t)$. Dengan notasi ini:
 
-        $$
-        \begin{aligned}
-        L&=[\Phi(s+\text{d}s)-\Phi(s)]\,\text{d}A\,\text{d}E\,\text{d}\mathbf{\Omega}\\
-        &=\frac{\text{d}\Phi}{\text{d}s}\,\text{d}V\,\text{d}E\,\text{d}\mathbf{\Omega}.
-        \end{aligned}
-        $$
+$$
+\begin{aligned}
+L&=[\Phi(s+\text{d}s)-\Phi(s)]\,\text{d}A\,\text{d}E\,\text{d}\mathbf{\Omega}\\
+&=\frac{\text{d}\Phi}{\text{d}s}\,\text{d}V\,\text{d}E\,\text{d}\mathbf{\Omega}.
+\end{aligned}
+$$
 
         Perhatikan bahwa $\mathbf{r} = \mathbf{r}_0 + s\mathbf{\Omega}$, dan turunan total $\frac{\text{d}\phi}{\text{d}s}$ dapat dinyatakan sebagai
 
-        $$
-        \begin{aligned}
-        & \frac{\text{d}\phi}{\text{d}s} = \frac{\partial \phi}{\partial x}\frac{\text{d}x}{\text{d}s} \\
-        & + \frac{\partial \phi}{\partial y}\frac{\text{d}y}{\text{d}s} \\
-        & + \frac{\partial \phi}{\partial z}\frac{\text{d}z}{\text{d}s} \\
-        \end{aligned}
-        $$
+$$
+\begin{aligned}
+& \frac{\text{d}\phi}{\text{d}s} = \frac{\partial \phi}{\partial x}\frac{\text{d}x}{\text{d}s} \\
+& + \frac{\partial \phi}{\partial y}\frac{\text{d}y}{\text{d}s} \\
+& + \frac{\partial \phi}{\partial z}\frac{\text{d}z}{\text{d}s} \\
+\end{aligned}
+$$
 
-        $$
-        \begin{aligned}
-        & = \mathbf{\Omega}_x\frac{\partial \phi}{\partial x} + \mathbf{\Omega}_y\frac{\partial \phi}{\partial y} \\
-        & + \mathbf{\Omega}_z\frac{\partial \phi}{\partial z} = \mathbf{\Omega} \cdot \nabla\phi \qquad \\
-        \end{aligned}
-        $$
+$$
+\begin{aligned}
+& = \mathbf{\Omega}_x\frac{\partial \phi}{\partial x} + \mathbf{\Omega}_y\frac{\partial \phi}{\partial y} \\
+& + \mathbf{\Omega}_z\frac{\partial \phi}{\partial z} = \mathbf{\Omega} \cdot \nabla\phi \qquad \\
+\end{aligned}
+$$
 
         Di sini operator $\nabla$ dapat diinterpretasikan sebagai sebuah vektor dalam bentuknya, yaitu,
 
-        $$ \nabla = \mathbf{i}\frac{\partial}{\partial x} + \mathbf{j}\frac{\partial}{\partial y} + \mathbf{k}\frac{\partial}{\partial z} \qquad $$
+$$ \nabla = \mathbf{i}\frac{\partial}{\partial x} + \mathbf{j}\frac{\partial}{\partial y} + \mathbf{k}\frac{\partial}{\partial z} \qquad $$
 
-        $$
-        \begin{aligned}
-        & \nabla\phi = \text{grad}\ \phi = \frac{\partial \phi}{\partial x}\mathbf{i} \\
-        & + \frac{\partial \phi}{\partial y}\mathbf{j} + \frac{\partial \phi}{\partial z}\mathbf{k} \qquad \\
-        \end{aligned}
-        $$
+$$
+\begin{aligned}
+& \nabla\phi = \text{grad}\ \phi = \frac{\partial \phi}{\partial x}\mathbf{i} \\
+& + \frac{\partial \phi}{\partial y}\mathbf{j} + \frac{\partial \phi}{\partial z}\mathbf{k} \qquad \\
+\end{aligned}
+$$
 
         Oleh karena itu, laju kehilangan neutron akibat aliran diturunkan sebagai
 
-        $$ L = \mathbf{\Omega} \cdot \nabla\phi \text{d}V\text{d}E\text{d}\mathbf{\Omega} \qquad $$
+$$ L = \mathbf{\Omega} \cdot \nabla\phi \text{d}V\text{d}E\text{d}\mathbf{\Omega} \qquad $$
 
     2. Laju kehilangan akibat tumbukan (R)
 
@@ -218,9 +215,9 @@ $$ \begin{aligned}
 
         Oleh karena itu, jumlah neutron yang hilang dari elemen $\text{d}V\text{d}E\text{d}\mathbf{\Omega}$ akibat tumbukan ini dirumuskan sebagai:
 
-        $$ R = (\Sigma_s + \Sigma_a)\phi(\mathbf{r}, E, \mathbf{\Omega}, t)\text{d}V\text{d}E\text{d}\mathbf{\Omega} $$
+$$ R = (\Sigma_s + \Sigma_a)\phi(\mathbf{r}, E, \mathbf{\Omega}, t)\text{d}V\text{d}E\text{d}\mathbf{\Omega} $$
 
-        $$ R = \Sigma_t\phi\text{d}V\text{d}E\text{d}\mathbf{\Omega} \qquad $$
+$$ R = \Sigma_t\phi\text{d}V\text{d}E\text{d}\mathbf{\Omega} \qquad $$
 
     3.  Laju Pembentukan (Q)
 
@@ -230,47 +227,47 @@ $$ \begin{aligned}
         
             Neutron dengan energi $E'$ yang bergerak ke arah $\mathbf{\Omega}'$. lalu menabrak atom, kemudian terhambur, mengakibatkan energi berubah menjadi $E$ dan arahnya berubah menjadi $\mathbf{\Omega}$. Berdasarkan fungsi probabilitas hamburan ($f$), jumlah neutron yang mengalami proses ini di dalam volume $\text{d}V$ adalah:
 
-        $$
-            \begin{aligned}
-            \mathrm{d}Q_s={}&\Sigma_s(\mathbf{r},E')f(\mathbf{r},E'\to E,\mathbf{\Omega}'\to\mathbf{\Omega})\\
-            &\quad\times\phi(\mathbf{r},E',\mathbf{\Omega}',t)\,\mathrm{d}V\,\mathrm{d}E'\,\mathrm{d}\mathbf{\Omega}'.
-            \end{aligned}
-        $$
+$$
+\begin{aligned}
+\mathrm{d}Q_s={}&\Sigma_s(\mathbf{r},E')f(\mathbf{r},E'\to E,\mathbf{\Omega}'\to\mathbf{\Omega})\\
+&\quad\times\phi(\mathbf{r},E',\mathbf{\Omega}',t)\,\mathrm{d}V\,\mathrm{d}E'\,\mathrm{d}\mathbf{\Omega}'.
+\end{aligned}
+$$
 
         Karena neutron yang terhambur ke arah $\mathbf{\Omega}$ dan menjadi berenergi $E$ itu awalnya bisa dari berbagai macam arah dan energi awal, kita harus menjumlahkan semuanya. Dengan mengintegralkan rumus tadi terhadap $E'$ dan $\mathbf{\Omega}'$:
 
-        $$
-            \begin{aligned}
-            Q_s={}&\mathrm{d}V\,\mathrm{d}E\,\mathrm{d}\mathbf{\Omega}
-            \int_0^\infty\mathrm{d}E'\int_{\mathbf{\Omega}'}\mathrm{d}\mathbf{\Omega}'\\
-            &\quad\times\Sigma_s(\mathbf{r},E')f(\mathbf{r},E'\to E,\mathbf{\Omega}'\to\mathbf{\Omega})\\
-            &\quad\times\phi(\mathbf{r},E',\mathbf{\Omega}',t).
-            \end{aligned}
-            $$
+$$
+\begin{aligned}
+Q_s={}&\mathrm{d}V\,\mathrm{d}E\,\mathrm{d}\mathbf{\Omega}
+\int_0^\infty\mathrm{d}E'\int_{\mathbf{\Omega}'}\mathrm{d}\mathbf{\Omega}'\\
+&\quad\times\Sigma_s(\mathbf{r},E')f(\mathbf{r},E'\to E,\mathbf{\Omega}'\to\mathbf{\Omega})\\
+&\quad\times\phi(\mathbf{r},E',\mathbf{\Omega}',t).
+\end{aligned}
+$$
 
         - Sumber Fisi (*Fission Source*)
             Neutron yang lahir dari reaksi pembelahan inti (fisi) di dalam reaktor. Di sini, $\nu(E')$ melambangkan rata-rata jumlah neutron yang lahir per satu reaksi fisi. Sedangkan $\chi(E)$ adalah spektrum fisi (distribusi energi dari neutron yang baru lahir tersebut). Jika di asumsikan semua neutron fisi ini muncul seketika (*prompt*) dan menyebar ke segala arah secara merata (*isotropically*, makanya dibagi $4\pi$), laju pembentukannya dirumuskan sebagai:
 
-            $$
-            \begin{aligned}
-            Q_f={}&\mathrm{d}V\,\mathrm{d}E\,\mathrm{d}\mathbf{\Omega}\,
-            \frac{\chi(E)}{4\pi}\int_0^\infty\mathrm{d}E'\int_{\mathbf{\Omega}'}\mathrm{d}\mathbf{\Omega}'\\
-            &\quad\times\nu(E')\Sigma_f(\mathbf{r},E')\phi(\mathbf{r},E',\mathbf{\Omega}',t).
-            \end{aligned}
-            $$
+$$
+\begin{aligned}
+Q_f={}&\mathrm{d}V\,\mathrm{d}E\,\mathrm{d}\mathbf{\Omega}\,
+\frac{\chi(E)}{4\pi}\int_0^\infty\mathrm{d}E'\int_{\mathbf{\Omega}'}\mathrm{d}\mathbf{\Omega}'\\
+&\quad\times\nu(E')\Sigma_f(\mathbf{r},E')\phi(\mathbf{r},E',\mathbf{\Omega}',t).
+\end{aligned}
+$$
 
         - Sumber Eksternal
             Jika pada reaktor terdapat sumber neutron dari luar, sumbernya di tulis sebagai $S(\mathbf{r}, E, \mathbf{\Omega}, t)$, dan dalam sistem menjadi :
 
-            $$ S = S(\mathbf{r}, E, \mathbf{\Omega}, t)\text{d}V\text{d}E\text{d}\mathbf{\Omega} \qquad $$
+$$ S = S(\mathbf{r}, E, \mathbf{\Omega}, t)\text{d}V\text{d}E\text{d}\mathbf{\Omega} \qquad $$
 
             Maka, total laju pembentukan neutron ($Q$):
 
-            $$ Q(\mathbf{r}, E, \mathbf{\Omega}, t) = Q_s + Q_f + S \qquad $$
+$$ Q(\mathbf{r}, E, \mathbf{\Omega}, t) = Q_s + Q_f + S \qquad $$
 
             Sebelumnya dimisalkan laju perubahan kepadatan neutron ($\frac{\partial n}{\partial t}$). Karena kepadatan neutron ($n$) dikali kecepatannya ($v$) sama dengan fluks ($\phi$), maka hal ini dapat di tulis menjadi:
 
-            $$ \frac{\partial}{\partial t}n(\mathbf{r}, E, \mathbf{\Omega}, t) = \frac{1}{v}\frac{\partial}{\partial t}\phi(\mathbf{r}, E, \mathbf{\Omega}, t) \qquad $$
+$$ \frac{\partial}{\partial t}n(\mathbf{r}, E, \mathbf{\Omega}, t) = \frac{1}{v}\frac{\partial}{\partial t}\phi(\mathbf{r}, E, \mathbf{\Omega}, t) \qquad $$
 
 
 Hasil jadinya adalah persamaan keseimbangan neutron pada waktu $t$ di ruang fase $(\mathbf{r}, E, \mathbf{\Omega})$:
@@ -304,12 +301,12 @@ Jika persamaan transport neutron melacak tiap partikel yang ada dalam teras reak
 
     Persamaan transport (Boltzmann) untuk neutron menggambarkan **fluks sudut** $\psi(\mathbf{r},\mathbf{\Omega},E,t)$ — jumlah neutron di posisi $\mathbf{r}$, bergerak ke arah $\mathbf{\Omega}$, dengan energi $E$, pada waktu $t$:
 
-    $$
-    \begin{aligned} 
-    & \frac{1}{v}\frac{\partial \psi}{\partial t} + \mathbf{\Omega}\cdot\nabla\psi + \Sigma_t(\mathbf{r},E)\psi \\
-    & = \int dE' \int_{4\pi} d\Omega' \, \Sigma_s(\mathbf{r},E'\to E,\mathbf{\Omega}'\to\mathbf{\Omega})\,\psi(\mathbf{r},\mathbf{\Omega}',E',t) + S \\
-     \end{aligned}
-    $$
+$$
+\begin{aligned} 
+& \frac{1}{v}\frac{\partial \psi}{\partial t} + \mathbf{\Omega}\cdot\nabla\psi + \Sigma_t(\mathbf{r},E)\psi \\
+& = \int dE' \int_{4\pi} d\Omega' \, \Sigma_s(\mathbf{r},E'\to E,\mathbf{\Omega}'\to\mathbf{\Omega})\,\psi(\mathbf{r},\mathbf{\Omega}',E',t) + S \\
+\end{aligned}
+$$
 
     Masalahnya: persamaan ini punya **7 variabel bebas** (3 posisi, 2 sudut arah, 1 energi, 1 waktu). Hampir mustahil dipecahkan langsung untuk masalah reaktor nyata. Maka kita sederhanakan.
 
@@ -320,7 +317,7 @@ Jika persamaan transport neutron melacak tiap partikel yang ada dalam teras reak
 
     Karena itu, fluks sudut di asumsikan hanya dengan dua suku, komponen isotropik (rata ke segala arah) dan satu koreksi arah:
 
-    $$\psi(\mathbf{r},\mathbf{\Omega},E,t) \approx \frac{1}{4\pi}\phi(\mathbf{r},E,t) + \frac{3}{4\pi}\mathbf{\Omega}\cdot\mathbf{J}(\mathbf{r},E,t)$$
+$$\psi(\mathbf{r},\mathbf{\Omega},E,t) \approx \frac{1}{4\pi}\phi(\mathbf{r},E,t) + \frac{3}{4\pi}\mathbf{\Omega}\cdot\mathbf{J}(\mathbf{r},E,t)$$
 
     Di sini:
     - $\phi(\mathbf{r},E,t) = \int_{4\pi}\psi\,d\Omega$ → **fluks skalar** (total kepadatan neutron, semua arah dijumlahkan)
@@ -335,12 +332,12 @@ Jika persamaan transport neutron melacak tiap partikel yang ada dalam teras reak
 
     Hasilnya :
 
-    $$
-    \begin{aligned}
-    & \frac{1}{v}\frac{\partial \phi}{\partial t} + \nabla\cdot\mathbf{J} + \Sigma_t(\mathbf{r},E)\phi(\mathbf{r},E,t) \\
-    & = \int dE'\,\Sigma_{s0}(\mathbf{r},E'\to E)\,\phi(\mathbf{r},E',t) + S(\mathbf{r},E,t) \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \frac{1}{v}\frac{\partial \phi}{\partial t} + \nabla\cdot\mathbf{J} + \Sigma_t(\mathbf{r},E)\phi(\mathbf{r},E,t) \\
+& = \int dE'\,\Sigma_{s0}(\mathbf{r},E'\to E)\,\phi(\mathbf{r},E',t) + S(\mathbf{r},E,t) \\
+\end{aligned}
+$$
 
     Ini adalah **persamaan kontinuitas neutron**: perubahan populasi = -kebocoran ($\nabla\cdot\mathbf{J}$) − hilang karena tumbukan + masuk karena hamburan + sumber.
 
@@ -350,17 +347,17 @@ Jika persamaan transport neutron melacak tiap partikel yang ada dalam teras reak
 
     Kali ini, kita kalikan persamaan transport dengan $\mathbf{\Omega}$ lalu integralkan terhadap semua arah. Dengan memasukkan asumsi P1 dan mengabaikan perubahan cepat dari $\mathbf{J}$ terhadap waktu (arus menyesuaikan diri jauh lebih cepat daripada fluks berubah), kita peroleh:
 
-    $$\frac{1}{3}\nabla\phi(\mathbf{r},E,t) + \Sigma_{tr}(\mathbf{r},E)\,\mathbf{J}(\mathbf{r},E,t) = 0$$
+$$\frac{1}{3}\nabla\phi(\mathbf{r},E,t) + \Sigma_{tr}(\mathbf{r},E)\,\mathbf{J}(\mathbf{r},E,t) = 0$$
 
     dengan **penampang lintang transport**:
 
-    $$\Sigma_{tr}(\mathbf{r},E) = \Sigma_t(\mathbf{r},E) - \bar{\mu}_0(\mathbf{r},E)\,\Sigma_s(\mathbf{r},E)$$
+$$\Sigma_{tr}(\mathbf{r},E) = \Sigma_t(\mathbf{r},E) - \bar{\mu}_0(\mathbf{r},E)\,\Sigma_s(\mathbf{r},E)$$
 
     ($\bar{\mu}_0$ = kosinus rata-rata sudut hamburan, mengoreksi efek hamburan yang tidak sepenuhnya acak/isotropik).
 
     Susun ulang persamaan, maka di dapatkan **Hukum Fick**, persis seperti hukum yang sama yang menjelaskan difusi panas atau penyebaran asap:
 
-    $$\boxed{\mathbf{J}(\mathbf{r},E,t) = -D(\mathbf{r},E)\,\nabla\phi(\mathbf{r},E,t)}, \qquad D(\mathbf{r},E) = \frac{1}{3\,\Sigma_{tr}(\mathbf{r},E)}$$
+$$\boxed{\mathbf{J}(\mathbf{r},E,t) = -D(\mathbf{r},E)\,\nabla\phi(\mathbf{r},E,t)}, \qquad D(\mathbf{r},E) = \frac{1}{3\,\Sigma_{tr}(\mathbf{r},E)}$$
 
     **Maknanya secara intuitif:** neutron mengalir secara neto dari daerah yang padat neutron ke daerah yang lebih jarang neutron, dengan kecepatan aliran sebanding dengan seberapa "curam" perbedaan kepadatannya ($\nabla\phi$). $D$ besar artinya neutron mudah mengalir (sedikit tumbukan); $D$ kecil artinya neutron "macet" (banyak tumbukan, sering terserap/terhambur).
 
@@ -368,13 +365,13 @@ Jika persamaan transport neutron melacak tiap partikel yang ada dalam teras reak
 
     Substitusikan Hukum Fick :
 
-    $$
-    \begin{aligned}
-    & \frac{1}{v}\frac{\partial \phi(\mathbf{r},E,t)}{\partial t} = \nabla\cdot\big[D(\mathbf{r},E)\nabla\phi(\mathbf{r},E,t)\big] \\
-    & - \Sigma_t(\mathbf{r},E)\phi(\mathbf{r},E,t) + \int dE'\,\Sigma_{s0}(\mathbf{r},E'\to E)\phi(\mathbf{r},E',t) \\
-    & + S(\mathbf{r},E,t) \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \frac{1}{v}\frac{\partial \phi(\mathbf{r},E,t)}{\partial t} = \nabla\cdot\big[D(\mathbf{r},E)\nabla\phi(\mathbf{r},E,t)\big] \\
+& - \Sigma_t(\mathbf{r},E)\phi(\mathbf{r},E,t) + \int dE'\,\Sigma_{s0}(\mathbf{r},E'\to E)\phi(\mathbf{r},E',t) \\
+& + S(\mathbf{r},E,t) \\
+\end{aligned}
+$$
 
     Inilah **persamaan difusi neutron**. Variabel sudut $\mathbf{\Omega}$ sudah hilang sepenuhnya — sudah jauh lebih sederhana dari persamaan transport awal. Tapi ketergantungan terhadap energi $E$ masih kontinu (terus-menerus), dan ini masih sulit dipecahkan karena penampang lintang $\Sigma$ bisa berubah drastis (ada "resonansi" tajam) terhadap energi.
 
@@ -382,23 +379,23 @@ Jika persamaan transport neutron melacak tiap partikel yang ada dalam teras reak
 
     Di sinilah ide **multigrup** masuk. Daripada melacak $\phi(E)$ untuk setiap nilai energi (tak terhingga banyaknya), kita potong sumbu energi menjadi $G$ buah "kotak"/kelompok energi (grup), dari energi tertinggi (grup 1, neutron cepat) sampai energi terendah (grup $G$, neutron termal):
 
-    $$E_0 \;(\text{tertinggi}) > E_1 > E_2 > \cdots > E_G \;(\text{terendah, } \approx 0)$$
+$$E_0 \;(\text{tertinggi}) > E_1 > E_2 > \cdots > E_G \;(\text{terendah, } \approx 0)$$
 
     Grup $g$ mencakup rentang energi $[E_g, E_{g-1}]$.
 
     Kita definisikan **fluks grup** (total neutron di rentang energi itu):
 
-    $$\phi_g(\mathbf{r},t) = \int_{E_g}^{E_{g-1}} \phi(\mathbf{r},E,t)\,dE$$
+$$\phi_g(\mathbf{r},t) = \int_{E_g}^{E_{g-1}} \phi(\mathbf{r},E,t)\,dE$$
 
     Lalu kita **integralkan** persamaan difusi dari Langkah 5 terhadap energi, dari $E_g$ sampai $E_{g-1}$, untuk setiap grup $g$.
 
     **Soal penting saat melakukan ini:** penampang lintang $D$, $\Sigma_t$, $\Sigma_s$ di dalam satu grup tidaklah konstan — bisa berubah-ubah tajam terhadap energi. Supaya hasil integrasinya tetap akurat (laju reaksi tetap benar), kita harus mendefinisikan **konstanta grup** sebagai rata-rata yang **dibobotkan dengan fluks** sesungguhnya di dalam grup itu:
 
-    $$\Sigma_{t,g}(\mathbf{r}) = \frac{\displaystyle\int_{E_g}^{E_{g-1}} \Sigma_t(\mathbf{r},E)\,\phi(\mathbf{r},E,t)\,dE}{\phi_g(\mathbf{r},t)}, \qquad D_g(\mathbf{r}) = \frac{\displaystyle\int_{E_g}^{E_{g-1}} D(\mathbf{r},E)\,\phi(\mathbf{r},E,t)\,dE}{\phi_g(\mathbf{r},t)}$$
+$$\Sigma_{t,g}(\mathbf{r}) = \frac{\displaystyle\int_{E_g}^{E_{g-1}} \Sigma_t(\mathbf{r},E)\,\phi(\mathbf{r},E,t)\,dE}{\phi_g(\mathbf{r},t)}, \qquad D_g(\mathbf{r}) = \frac{\displaystyle\int_{E_g}^{E_{g-1}} D(\mathbf{r},E)\,\phi(\mathbf{r},E,t)\,dE}{\phi_g(\mathbf{r},t)}$$
 
     dan untuk hamburan antar-grup ($g' \to g$):
 
-    $$\Sigma_{s,\,g'\to g}(\mathbf{r}) = \frac{\displaystyle\int_{g'} dE' \int_{g} dE\;\Sigma_{s0}(\mathbf{r},E'\to E)\,\phi(\mathbf{r},E',t)}{\phi_{g'}(\mathbf{r},t)}$$
+$$\Sigma_{s,\,g'\to g}(\mathbf{r}) = \frac{\displaystyle\int_{g'} dE' \int_{g} dE\;\Sigma_{s0}(\mathbf{r},E'\to E)\,\phi(\mathbf{r},E',t)}{\phi_{g'}(\mathbf{r},t)}$$
 
     **Kenapa pembobotan dengan fluks?** Karena daerah energi di mana banyak neutron berada (fluks tinggi) jauh lebih penting secara fisis untuk "rata-rata efektif" dibanding daerah energi yang jarang dihuni neutron — sama seperti rata-rata pendapatan penduduk seharusnya dibobotkan jumlah orang, bukan dirata-ratakan begitu saja per kategori.
 
@@ -407,14 +404,14 @@ Jika persamaan transport neutron melacak tiap partikel yang ada dalam teras reak
 
     Setelah integrasi energi selesai, untuk setiap grup $g = 1, 2, \dots, G$ kita peroleh sistem $G$ persamaan yang saling berkaitan:
 
-    $$
-    \begin{aligned}
-    & \frac{1}{v_g}\frac{\partial \phi_g(\mathbf{r},t)}{\partial t} = \nabla\cdot\big[D_g(\mathbf{r})\nabla\phi_g(\mathbf{r},t)\big] \\
-    & - \Sigma_{r,g}(\mathbf{r})\phi_g(\mathbf{r},t) \\
-    & + \sum_{g'\neq g}\Sigma_{s,\,g'\to g}(\mathbf{r})\,\phi_{g'}(\mathbf{r},t) \\
-    & + \frac{\chi_g}{k_{eff}}\sum_{g'=1}^{G}\nu\Sigma_{f,g'}(\mathbf{r})\,\phi_{g'}(\mathbf{r},t) \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \frac{1}{v_g}\frac{\partial \phi_g(\mathbf{r},t)}{\partial t} = \nabla\cdot\big[D_g(\mathbf{r})\nabla\phi_g(\mathbf{r},t)\big] \\
+& - \Sigma_{r,g}(\mathbf{r})\phi_g(\mathbf{r},t) \\
+& + \sum_{g'\neq g}\Sigma_{s,\,g'\to g}(\mathbf{r})\,\phi_{g'}(\mathbf{r},t) \\
+& + \frac{\chi_g}{k_{eff}}\sum_{g'=1}^{G}\nu\Sigma_{f,g'}(\mathbf{r})\,\phi_{g'}(\mathbf{r},t) \\
+\end{aligned}
+$$
 
     Dimana : 
     - $\nabla\cdot[D_g\nabla\phi_g]$ : kebocoran/difusi neutron grup $g$ (analog hukum Fick) 
@@ -460,7 +457,7 @@ $$
 1. Neutron Bergerak Lurus: Garis Karakteristik
     Antara dua tumbukan, neutron bergerak **lurus** (seperti peluru, tidak dibelokkan gravitasi/medan apa pun). Jika neutron bergerak ke arah $\boldsymbol\Omega$ mulai dari titik $\mathbf r'$, maka setelah menempuh jarak $s$, posisinya menjadi:
     
-    $$ \mathbf r = \mathbf r' + s\,\boldsymbol\Omega$$
+$$ \mathbf r = \mathbf r' + s\,\boldsymbol\Omega$$
     
     Garis lurus yang dilewati neutron ini disebut **garis karakteristik** (characteristic line). Ide besar "bentuk integral": alih-alih melihat persamaan transport sebagai PDE 3 dimensi yang rumit, kita **menyusuri garis ini satu per satu**, dan persamaan transport berubah menjadi persamaan 1 dimensi yang jauh lebih sederhana sepanjang garis tersebut.
 
@@ -468,67 +465,67 @@ $$
 
     Kita ingin tahu: berapa $\phi$ berubah jika bergeser sedikit **sepanjang arah gerak neutron**? Bayangkan Anda berdiri di titik pengamatan $\mathbf r$, menengok ke belakang sejauh $s$ ke arah dari mana neutron itu datang (arah $-\boldsymbol\Omega$). Titik di belakang Anda itu adalah:
 
-    $$ \mathbf r'(s) = \mathbf r - s\,\boldsymbol\Omega \qquad\Longrightarrow\qquad \frac{\partial \mathbf r'}{\partial s} = -\boldsymbol\Omega$$
+$$ \mathbf r'(s) = \mathbf r - s\,\boldsymbol\Omega \qquad\Longrightarrow\qquad \frac{\partial \mathbf r'}{\partial s} = -\boldsymbol\Omega$$
 
     (tanda minus karena makin besar $s$, makin jauh kita mundur **melawan** arah $\boldsymbol\Omega$).
 
     Aturan rantai (chain rule) memberi:
 
-    $$
-    \begin{aligned}
-    & \frac{d}{ds}\,\phi(\mathbf r'(s),\boldsymbol\Omega,E) = \frac{\partial \mathbf r'}{\partial s}\cdot \nabla_{\mathbf r'}\phi = \\
-    & -\,\boldsymbol\Omega\cdot\nabla_{\mathbf r'}\phi(\mathbf r',\boldsymbol\Omega,E) \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \frac{d}{ds}\,\phi(\mathbf r'(s),\boldsymbol\Omega,E) = \frac{\partial \mathbf r'}{\partial s}\cdot \nabla_{\mathbf r'}\phi = \\
+& -\,\boldsymbol\Omega\cdot\nabla_{\mathbf r'}\phi(\mathbf r',\boldsymbol\Omega,E) \\
+\end{aligned}
+$$
 
     Dibalik:
 
-    $$ \boldsymbol\Omega\cdot\nabla_{\mathbf r'}\,\phi(\mathbf r',\boldsymbol\Omega,E) \;=\; -\,\frac{d}{ds}\,\phi(\mathbf r',\boldsymbol\Omega,E) $$
+$$ \boldsymbol\Omega\cdot\nabla_{\mathbf r'}\,\phi(\mathbf r',\boldsymbol\Omega,E) \;=\; -\,\frac{d}{ds}\,\phi(\mathbf r',\boldsymbol\Omega,E) $$
 
     Sekarang tulis ulang Eq.(1-2), dievaluasi di titik $\mathbf r'$ (bukan $\mathbf r$), dengan semua suku hamburan+fisi+sumber luar di kanan disingkat $q(\mathbf r',\boldsymbol\Omega,E)$ (definisi lengkapnya di Langkah 3):
 
-    $$
-    \begin{aligned}
-    & \boldsymbol\Omega\cdot\nabla_{\mathbf r'}\phi(\mathbf r',\boldsymbol\Omega,E) \\
-    & + \Sigma(\mathbf r',E)\,\phi(\mathbf r',\boldsymbol\Omega,E) = q(\mathbf r',\boldsymbol\Omega,E) \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \boldsymbol\Omega\cdot\nabla_{\mathbf r'}\phi(\mathbf r',\boldsymbol\Omega,E) \\
+& + \Sigma(\mathbf r',E)\,\phi(\mathbf r',\boldsymbol\Omega,E) = q(\mathbf r',\boldsymbol\Omega,E) \\
+\end{aligned}
+$$
 
     Substitusikan hasil di atas:
 
-    $$ -\frac{d}{ds}\phi(\mathbf r',\boldsymbol\Omega,E) + \Sigma(\mathbf r',E)\,\phi(\mathbf r',\boldsymbol\Omega,E) = q(\mathbf r',\boldsymbol\Omega,E) $$
+$$ -\frac{d}{ds}\phi(\mathbf r',\boldsymbol\Omega,E) + \Sigma(\mathbf r',E)\,\phi(\mathbf r',\boldsymbol\Omega,E) = q(\mathbf r',\boldsymbol\Omega,E) $$
 
     Kalikan kedua sisi dengan $-1$:
 
-    $$ \frac{d}{ds}\phi(\mathbf r',\boldsymbol\Omega,E) - \Sigma(\mathbf r',E)\,\phi(\mathbf r',\boldsymbol\Omega,E) = -\,q(\mathbf r',\boldsymbol\Omega,E) $$
+$$ \frac{d}{ds}\phi(\mathbf r',\boldsymbol\Omega,E) - \Sigma(\mathbf r',E)\,\phi(\mathbf r',\boldsymbol\Omega,E) = -\,q(\mathbf r',\boldsymbol\Omega,E) $$
 
     atau ditulis rapi:
 
-    $$ \left[\,\frac{d}{ds} - \Sigma(\mathbf r',E)\,\right]\phi(\mathbf r',\boldsymbol\Omega,E) = -\,q(\mathbf r',\boldsymbol\Omega,E) $$
+$$ \left[\,\frac{d}{ds} - \Sigma(\mathbf r',E)\,\right]\phi(\mathbf r',\boldsymbol\Omega,E) = -\,q(\mathbf r',\boldsymbol\Omega,E) $$
 
 3. Sumber Tumbukan ($q$) 
 
     $q(\mathbf r,\boldsymbol\Omega,E)$ hanyalah **nama untuk gabungan semua suku di sisi kanan** Eq.(1-2): neutron yang masuk ke kelompok arah/energi ini karena (a) dihamburkan dari arah/energi lain, (b) lahir dari fisi, atau (c) berasal dari sumber luar:
 
-    $$
-    \begin{aligned}
-    & q(\mathbf r,\boldsymbol\Omega,E) = \int_0^\infty dE'\int_{4\pi}d\Omega'\;\Sigma_s(\mathbf r,\boldsymbol\Omega'\cdot\boldsymbol\Omega,E'\to E)\,\phi(\mathbf r,\boldsymbol\Omega',E') \\
-    & + \frac{\chi(E)}{4\pi}\int_0^\infty dE'\int_{4\pi}d\Omega'\;\nu(E')\,\Sigma_f(\mathbf r,E')\,\phi(\mathbf r,\boldsymbol\Omega',E') \\
-    & + Q(\mathbf r,\boldsymbol\Omega,E) \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& q(\mathbf r,\boldsymbol\Omega,E) = \int_0^\infty dE'\int_{4\pi}d\Omega'\;\Sigma_s(\mathbf r,\boldsymbol\Omega'\cdot\boldsymbol\Omega,E'\to E)\,\phi(\mathbf r,\boldsymbol\Omega',E') \\
+& + \frac{\chi(E)}{4\pi}\int_0^\infty dE'\int_{4\pi}d\Omega'\;\nu(E')\,\Sigma_f(\mathbf r,E')\,\phi(\mathbf r,\boldsymbol\Omega',E') \\
+& + Q(\mathbf r,\boldsymbol\Omega,E) \\
+\end{aligned}
+$$
 
 4. Kedalaman Optik ($\tau$) : Mengukur Jarak dalam Satuan Tumbukan
 
     Sebelum menyelesaikan Eq.(1-3), naskah mendefinisikan:
 
-    $$ \tau(\mathbf r,\mathbf r',E) \;\equiv\; \int_0^{|\mathbf r-\mathbf r'|} ds'\;\Sigma\big(\mathbf r'(s'),E\big) $$
+$$ \tau(\mathbf r,\mathbf r',E) \;\equiv\; \int_0^{|\mathbf r-\mathbf r'|} ds'\;\Sigma\big(\mathbf r'(s'),E\big) $$
 
     Bayangkan Anda berjalan dari $\mathbf r'$ ke $\mathbf r$. Di setiap titik sepanjang jalan ada "kerapatan tumbukan" $\Sigma$. Jika dijumlahkan (diintegralkan) sepanjang seluruh lintasan, hasilnya adalah $\tau$ — **jumlah rata-rata tumbukan "seharusnya"** sepanjang jarak itu (walau aktualnya bisa nol, satu, atau banyak — $\tau$ hanyalah ukuran panjang jarak dalam satuan *mean free path*, bukan jumlah tumbukan aktual).
 
     Kenapa penting? Karena peluang neutron **lolos tanpa tumbukan sama sekali** sepanjang jarak itu adalah:
 
-    $$ e^{-\tau(\mathbf r,\mathbf r',E)} $$
+$$ e^{-\tau(\mathbf r,\mathbf r',E)} $$
 
     Hukum peluruhan eksponensial ini sama seperti cahaya yang makin redup saat menembus kabut tebal — makin tebal kabut (makin besar $\tau$), makin kecil peluang lolos.
 
@@ -538,40 +535,40 @@ $$
 
     Parametrikan **maju** sepanjang lintasan: mulai dari $\mathbf r'$ (saat $s'=0$), bergerak ke arah $\boldsymbol\Omega$, sehingga titik di sepanjang jalan adalah $\mathbf r'(s') = \mathbf r' + s'\boldsymbol\Omega$. Definisikan singkatan:
 
-    $$
-    \Phi(s') \equiv \phi\big(\mathbf r' + s'\boldsymbol\Omega,\ \boldsymbol\Omega,\ E\big)
-    $$
+$$
+\Phi(s') \equiv \phi\big(\mathbf r' + s'\boldsymbol\Omega,\ \boldsymbol\Omega,\ E\big)
+$$
 
     Eq.(1-2) yang dievaluasi sepanjang lintasan ini (arah **maju**, kebalikan dari Langkah 2) memberi bentuk:
 
-    $$
-    \frac{d\Phi}{ds'} + \Sigma(s')\,\Phi(s') = q(s')
-    \qquad\text{dengan}\qquad \Sigma(s')\equiv\Sigma(\mathbf r'+s'\boldsymbol\Omega,E),\quad q(s')\equiv q(\mathbf r'+s'\boldsymbol\Omega,\boldsymbol\Omega,E)
-    $$
+$$
+\frac{d\Phi}{ds'} + \Sigma(s')\,\Phi(s') = q(s')
+\qquad\text{dengan}\qquad \Sigma(s')\equiv\Sigma(\mathbf r'+s'\boldsymbol\Omega,E),\quad q(s')\equiv q(\mathbf r'+s'\boldsymbol\Omega,\boldsymbol\Omega,E)
+$$
 
     kalikan kedua sisi dengan : 
 
-    $$
-    \mu(s') = \exp\!\left[\int_0^{s'} \Sigma(s'')\,ds''\right]
-    $$
+$$
+\mu(s') = \exp\!\left[\int_0^{s'} \Sigma(s'')\,ds''\right]
+$$
 
     Karena $d\mu/ds' = \Sigma(s')\,\mu(s')$, sisi kiri menjadi turunan dari sebuah hasil kali (kebalikan dari *product rule*):
 
-    $$
-    \frac{d}{ds'}\Big[\mu(s')\,\Phi(s')\Big] = \mu(s')\,q(s')
-    $$
+$$
+\frac{d}{ds'}\Big[\mu(s')\,\Phi(s')\Big] = \mu(s')\,q(s')
+$$
 
     Integralkan kedua sisi dari $0$ sampai $s$:
 
-    $$
-    \mu(s)\,\Phi(s) - \mu(0)\,\Phi(0) = \int_0^{s} \mu(s')\,q(s')\,ds'
-    $$
+$$
+\mu(s)\,\Phi(s) - \mu(0)\,\Phi(0) = \int_0^{s} \mu(s')\,q(s')\,ds'
+$$
 
     Karena $\mu(0) = e^0 = 1$, bagi semua sisi dengan $\mu(s)$:
 
-    $$
-    \Phi(s) = \Phi(0)\cdot e^{-\int_0^{s}\Sigma(s'')\,ds''} \;+\; \int_0^{s} e^{-\int_{s'}^{s}\Sigma(s'')\,ds''}\;q(s')\,ds'
-    $$
+$$
+\Phi(s) = \Phi(0)\cdot e^{-\int_0^{s}\Sigma(s'')\,ds''} \;+\; \int_0^{s} e^{-\int_{s'}^{s}\Sigma(s'')\,ds''}\;q(s')\,ds'
+$$
 
     Sekarang kenali bahwa $\int_0^{s}\Sigma\,ds''$ adalah **kedalaman optik** dari $\mathbf r'$ sampai $\mathbf r'+s\boldsymbol\Omega$. Tetapkan $s = |\mathbf r-\mathbf r'|$ sehingga $\mathbf r'+s\boldsymbol\Omega=\mathbf r$:
 
@@ -581,10 +578,10 @@ $$
 
     Masukkan semuanya:
 
-    $$
-    \phi(\mathbf r,\boldsymbol\Omega,E) = \phi(\mathbf r',\boldsymbol\Omega,E)\,e^{-\tau(\mathbf r,\mathbf r',E)}
-    \;+\; \int_0^{s} ds'\; e^{-\tau(\mathbf r,\mathbf r'(s'),E)}\;q\big(\mathbf r'(s'),\boldsymbol\Omega,E\big)
-    $$
+$$
+\phi(\mathbf r,\boldsymbol\Omega,E) = \phi(\mathbf r',\boldsymbol\Omega,E)\,e^{-\tau(\mathbf r,\mathbf r',E)}
+\;+\; \int_0^{s} ds'\; e^{-\tau(\mathbf r,\mathbf r'(s'),E)}\;q\big(\mathbf r'(s'),\boldsymbol\Omega,E\big)
+$$
     
     **Cara membaca Eq.(1-5) secara fisis** (ini intinya!):
 
@@ -600,22 +597,22 @@ $$
 
     Ganti $\mathbf r'\to\mathbf r_s(\boldsymbol\Omega)$ di Eq.(1-5):
 
-    $$
-    \begin{aligned}
-    \phi(\mathbf{r},\boldsymbol{\Omega},E)
-    ={}&
-    \phi\bigl(\mathbf{r}_s(\boldsymbol{\Omega}),
-            \boldsymbol{\Omega},E\bigr)
-    e^{-\tau(\mathbf{r},\mathbf{r}_s(\boldsymbol{\Omega}),E)}
-    \Theta\bigl(-\hat{\mathbf{n}}_s\cdot\boldsymbol{\Omega}\bigr)
-    \\[6pt]
-    &+
-    \int_0^{|\mathbf{r}-\mathbf{r}_s|}
-    ds'\;
-    e^{-\tau(\mathbf{r},\mathbf{r}-s'\boldsymbol{\Omega},E)}
-    q\bigl(\mathbf{r}-s'\boldsymbol{\Omega},E\bigr).
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+\phi(\mathbf{r},\boldsymbol{\Omega},E)
+={}&
+\phi\bigl(\mathbf{r}_s(\boldsymbol{\Omega}),
+\boldsymbol{\Omega},E\bigr)
+e^{-\tau(\mathbf{r},\mathbf{r}_s(\boldsymbol{\Omega}),E)}
+\Theta\bigl(-\hat{\mathbf{n}}_s\cdot\boldsymbol{\Omega}\bigr)
+\\[6pt]
+&+
+\int_0^{|\mathbf{r}-\mathbf{r}_s|}
+ds'\;
+e^{-\tau(\mathbf{r},\mathbf{r}-s'\boldsymbol{\Omega},E)}
+q\bigl(\mathbf{r}-s'\boldsymbol{\Omega},E\bigr).
+\end{aligned}
+$$
 
     **Eq.(1-6) + Eq.(1-4) ini disebut "Persamaan Integral Fredholm Jenis Kedua".** Namanya terdengar rumit, tapi maksudnya sederhana: yang dicari ($\phi$) muncul di **kedua sisi** — di kiri sebagai $\phi(\mathbf r,\boldsymbol\Omega,E)$, dan tersembunyi lagi di kanan, di dalam $q$, lewat $\phi(\mathbf r,\boldsymbol\Omega',E')$ (lihat Eq.1-4). Karena fungsi yang tak-diketahui "muncul lagi" di dalam integral di sisi kanan, persamaan ini disebut "jenis kedua" (berbeda dari "jenis pertama" yang fungsi tak-diketahuinya hanya muncul di dalam integral saja).
 
@@ -623,9 +620,9 @@ $$
 
     Fluks sudut $\phi(\mathbf r,\boldsymbol\Omega,E)$ masih punya variabel arah $\boldsymbol\Omega$. Kadang kita hanya butuh **total neutron di semua arah**, yaitu fluks skalar:
 
-    $$
-    \phi(\mathbf r,E) \equiv \int_{4\pi} d\Omega\;\phi(\mathbf r,\boldsymbol\Omega,E)
-    $$
+$$
+\phi(\mathbf r,E) \equiv \int_{4\pi} d\Omega\;\phi(\mathbf r,\boldsymbol\Omega,E)
+$$
 
     **Eq.(1-7)**
 
@@ -633,24 +630,24 @@ $$
 
     Untuk mendapatkan persamaan bagi $\phi(\mathbf r,E)$ saja, kita **integralkan Eq.(1-6) terhadap $\boldsymbol\Omega$** di kedua sisi:
 
-    $$
-    \begin{aligned}
-    \phi(\mathbf{r},E)
-    ={}&
-    \int_{\hat{\mathbf{n}}_s\cdot\boldsymbol{\Omega}<0}
-    d\Omega\;
-    \phi\bigl(\mathbf{r}_s(\boldsymbol{\Omega}),
-            \boldsymbol{\Omega},E\bigr)
-    e^{-\tau(\mathbf{r},\mathbf{r}_s(\boldsymbol{\Omega}),E)}
-    \\[6pt]
-    &+
-    \int_{4\pi} d\Omega
-    \int_0^{|\mathbf{r}-\mathbf{r}_s|}
-    ds'\;
-    e^{-\tau(\mathbf{r},\mathbf{r}'(s'),E)}
-    q\bigl(\mathbf{r}'(s'),\boldsymbol{\Omega},E\bigr).
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+\phi(\mathbf{r},E)
+={}&
+\int_{\hat{\mathbf{n}}_s\cdot\boldsymbol{\Omega}<0}
+d\Omega\;
+\phi\bigl(\mathbf{r}_s(\boldsymbol{\Omega}),
+\boldsymbol{\Omega},E\bigr)
+e^{-\tau(\mathbf{r},\mathbf{r}_s(\boldsymbol{\Omega}),E)}
+\\[6pt]
+&+
+\int_{4\pi} d\Omega
+\int_0^{|\mathbf{r}-\mathbf{r}_s|}
+ds'\;
+e^{-\tau(\mathbf{r},\mathbf{r}'(s'),E)}
+q\bigl(\mathbf{r}'(s'),\boldsymbol{\Omega},E\bigr).
+\end{aligned}
+$$
 
     **Eq.(1-8)**
 
@@ -662,17 +659,17 @@ $$
 
     Di sini, "titik pusat bola"-nya adalah $\mathbf r$ (titik pengamatan), dan $s'$ berperan sebagai "jarak radial" dari $\mathbf r$. Elemen volume di sekitar $\mathbf r'$ (dengan $\mathbf r' = \mathbf r - s'\boldsymbol\Omega$) adalah:
 
-    $$
-    d\mathbf r' = s'^2\, d\Omega\, ds'
-    $$
+$$
+d\mathbf r' = s'^2\, d\Omega\, ds'
+$$
 
     Substitusikan ke Eq.(1-8) (sehingga $ds' = d\mathbf r'/s'^2$, dan $d\Omega$ "terserap" ke dalam integral volume):
 
-    $$
-    \phi(\mathbf r,E) = \int_{\hat{\mathbf n}_s\cdot\boldsymbol\Omega<0} d\Omega\;\phi\big(\mathbf r_s(\boldsymbol\Omega),\boldsymbol\Omega,E\big)\,e^{-\tau(\mathbf r,\mathbf r_s(\boldsymbol\Omega),E)}
-    \;+\; \int_V d\mathbf r'\;\frac{e^{-\tau(\mathbf r,\mathbf r',E)}}{|\mathbf r-\mathbf r'|^2}\;
-    q\!\left(\mathbf r',\ \frac{\mathbf r-\mathbf r'}{|\mathbf r-\mathbf r'|},\ E\right)
-    $$
+$$
+\phi(\mathbf r,E) = \int_{\hat{\mathbf n}_s\cdot\boldsymbol\Omega<0} d\Omega\;\phi\big(\mathbf r_s(\boldsymbol\Omega),\boldsymbol\Omega,E\big)\,e^{-\tau(\mathbf r,\mathbf r_s(\boldsymbol\Omega),E)}
+\;+\; \int_V d\mathbf r'\;\frac{e^{-\tau(\mathbf r,\mathbf r',E)}}{|\mathbf r-\mathbf r'|^2}\;
+q\!\left(\mathbf r',\ \frac{\mathbf r-\mathbf r'}{|\mathbf r-\mathbf r'|},\ E\right)
+$$
 
     **Eq.(1-9)**
 
@@ -686,29 +683,29 @@ $$
 
     **1. Hamburan isotropik** — peluang neutron terhambur ke segala arah **sama saja**, tidak peduli arah datangnya:
 
-    $$
-    f_s(\boldsymbol\Omega'\cdot\boldsymbol\Omega,E'\to E) = \frac{1}{4\pi}f_s(E'\to E)
-    $$
+$$
+f_s(\boldsymbol\Omega'\cdot\boldsymbol\Omega,E'\to E) = \frac{1}{4\pi}f_s(E'\to E)
+$$
 
     **2. Sumber isotropik** — sumber luar juga memancar ke segala arah sama rata:
 
-    $$
-    Q(\mathbf r,\boldsymbol\Omega,E) = \frac{1}{4\pi}Q(\mathbf r,E)
-    $$
+$$
+Q(\mathbf r,\boldsymbol\Omega,E) = \frac{1}{4\pi}Q(\mathbf r,E)
+$$
 
     Lihat apa yang terjadi pada $q$ (Eq.1-4) dengan asumsi ini. Karena bagian arahnya sekarang konstan ($1/4\pi$, tak bergantung $\boldsymbol\Omega'$ lagi), integral terhadap $\boldsymbol\Omega'$ di setiap suku menjadi **mudah**: ia tinggal mengambil $\int d\Omega'\,\phi(\mathbf r,\boldsymbol\Omega',E') = \phi(\mathbf r,E')$ — **persis definisi fluks skalar** di Eq.(1-7)! Inilah kuncinya — dengan hamburan & sumber isotropik, integral sudut otomatis "menyederhanakan" fluks sudut menjadi fluks skalar.
 
     Gabungkan suku hamburan dan fisi menjadi satu kernel:
 
-    $$
-    \Sigma(\mathbf r,E'\to E) \equiv \Sigma_s(\mathbf r,E')\,f_s(E'\to E) \;+\; \nu(E')\,\Sigma_f(\mathbf r,E')\,\chi(E)
-    $$
+$$
+\Sigma(\mathbf r,E'\to E) \equiv \Sigma_s(\mathbf r,E')\,f_s(E'\to E) \;+\; \nu(E')\,\Sigma_f(\mathbf r,E')\,\chi(E)
+$$
 
     Sehingga $q$ menjadi:
 
-    $$
-    q(\mathbf r,\boldsymbol\Omega,E) = \frac{1}{4\pi}\left[\int_0^\infty dE'\;\Sigma(\mathbf r,E'\to E)\,\phi(\mathbf r,E') \;+\; Q(\mathbf r,E)\right]
-    $$
+$$
+q(\mathbf r,\boldsymbol\Omega,E) = \frac{1}{4\pi}\left[\int_0^\infty dE'\;\Sigma(\mathbf r,E'\to E)\,\phi(\mathbf r,E') \;+\; Q(\mathbf r,E)\right]
+$$
 
     **Eq.(1-11)**
 
@@ -716,13 +713,13 @@ $$
 
     Masukkan $q$ versi isotropik ini ke Eq.(1-9), dan kita peroleh persamaan yang **benar-benar tertutup** untuk fluks skalar:
 
-    $$ \begin{aligned}
-    & \phi(\mathbf r,E) = \int_{\hat{\mathbf n}_s\cdot\boldsymbol\Omega<0} d\Omega\;\phi\big(\mathbf r_s(\boldsymbol\Omega),\boldsymbol\Omega,E\big)\,e^{-\tau(\mathbf r,\mathbf r_s(\boldsymbol\Omega),E)}
-    \; \\
-    &+\; \int_V d\mathbf r'\;\frac{e^{-\tau(\mathbf r,\mathbf r',E)}}{4\pi\,|\mathbf r-\mathbf r'|^2}
-    \left[\int_0^\infty dE'\;\Sigma(\mathbf r',E'\to E)\,\phi(\mathbf r',E') \;+\; Q(\mathbf r',E)\right]
-    \end{aligned}
-    $$
+$$ \begin{aligned}
+& \phi(\mathbf r,E) = \int_{\hat{\mathbf n}_s\cdot\boldsymbol\Omega<0} d\Omega\;\phi\big(\mathbf r_s(\boldsymbol\Omega),\boldsymbol\Omega,E\big)\,e^{-\tau(\mathbf r,\mathbf r_s(\boldsymbol\Omega),E)}
+\; \\
+&+\; \int_V d\mathbf r'\;\frac{e^{-\tau(\mathbf r,\mathbf r',E)}}{4\pi\,|\mathbf r-\mathbf r'|^2}
+\left[\int_0^\infty dE'\;\Sigma(\mathbf r',E'\to E)\,\phi(\mathbf r',E') \;+\; Q(\mathbf r',E)\right]
+\end{aligned}
+$$
 
     **Eq.(1-10)**
 
@@ -738,18 +735,18 @@ $$
 
       **2. Media homogen:** sifat nuklir ($\Sigma$) **sama di semua titik**, tidak bergantung posisi $\mathbf r$. Kedalaman optik tidak perlu lagi diintegralkan sepanjang jalur — ia tinggal:
 
-      $$
-      \tau(\mathbf r,\mathbf r',E) = \Sigma(E)\cdot|\mathbf r-\mathbf r'|
-      $$
+$$
+\tau(\mathbf r,\mathbf r',E) = \Sigma(E)\cdot|\mathbf r-\mathbf r'|
+$$
 
       (cukup dikali jarak garis lurus, karena $\Sigma$ konstan di mana-mana).
 
       Masukkan kedua penyederhanaan ini ke Eq.(1-10):
 
-      $$
-      \phi(\mathbf r,E) = \int_V d\mathbf r'\;\frac{e^{-\Sigma(E)|\mathbf r-\mathbf r'|}}{4\pi\,|\mathbf r-\mathbf r'|^2}
-      \left[\int_0^\infty dE'\;\Sigma(E'\to E)\,\phi(\mathbf r',E') \;+\; Q(\mathbf r',E)\right]
-      $$
+$$
+\phi(\mathbf r,E) = \int_V d\mathbf r'\;\frac{e^{-\Sigma(E)|\mathbf r-\mathbf r'|}}{4\pi\,|\mathbf r-\mathbf r'|^2}
+\left[\int_0^\infty dE'\;\Sigma(E'\to E)\,\phi(\mathbf r',E') \;+\; Q(\mathbf r',E)\right]
+$$
 
       **Kegunaannya**:
       - Sangat cocok untuk **pendekatan tumbukan berganda** (*multiple collision approximation*) ketika serapan ($\Sigma_a$) jauh lebih dominan daripada hamburan.
@@ -1793,12 +1790,12 @@ Ini adalah potongan ilustratif untuk tiga titik pada satu baris mesh. Pada mesh 
 
     Dalam CPM, kita tidak menggunakan bentuk diferensial dari persamaan transport, melainkan bentuk **integral**. Fluks sudut neutron $\phi_{g}(r,\Omega)$ pada suatu titik $r$ dengan arah $\Omega$ untuk grup energi $g$ dapat dituliskan sebagai:
 
-    $$
-    \begin{aligned}
-    & \phi_{g}(r,\Omega)=\int_{0}^{l_{0}}Q_{g}(r-l^{\prime}\Omega,\Omega)e_{g}(r-l^{\prime}\Omega\rightarrow r)dl^{\prime} \\
-    & + \phi_{g}(r-l_{0}\Omega,\Omega)e_{g}(r-l_{0}\Omega\rightarrow r) \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \phi_{g}(r,\Omega)=\int_{0}^{l_{0}}Q_{g}(r-l^{\prime}\Omega,\Omega)e_{g}(r-l^{\prime}\Omega\rightarrow r)dl^{\prime} \\
+& + \phi_{g}(r-l_{0}\Omega,\Omega)e_{g}(r-l_{0}\Omega\rightarrow r) \\
+\end{aligned}
+$$
 
     **Makna Fisis Persamaan:**
     Fluks neutron di suatu titik berasal dari dua sumber utama:
@@ -1810,7 +1807,7 @@ Ini adalah potongan ilustratif untuk tiga titik pada satu baris mesh. Pada mesh 
     Kedua fluks ini akan melemah (atenuasi) secara eksponensial seiring bertambahnya jarak akibat interaksi dengan material. Efek pelemahan ini diwakili oleh **faktor pelemahan (weakening factor)** $e_g$:
 
 
-    $$e_{g}(r-l_{0}\Omega\rightarrow r)=exp\left[-\int_{0}^{l_{0}}\Sigma_{t,g}(r-l^{\prime}\Omega)dl^{\prime}\right]$$
+$$e_{g}(r-l_{0}\Omega\rightarrow r)=exp\left[-\int_{0}^{l_{0}}\Sigma_{t,g}(r-l^{\prime}\Omega)dl^{\prime}\right]$$
 
 
     Dengan asumsi bahwa sumber neutron dan hamburan bersifat isotropik (menyebar merata ke segala arah), persamaan fluks skalar $\Phi_{g}(r)$ dapat disederhanakan menjadi penjumlahan fluks dari dalam volume ($V$) dan dari permukaan batas ($S$).
@@ -1826,7 +1823,7 @@ Ini adalah potongan ilustratif untuk tiga titik pada satu baris mesh. Pada mesh 
 
     Kita mengasumsikan bahwa sumber neutron merata di setiap region (*flat source approximation*). Persamaan keseimbangan neutron untuk suatu region $i$ diturunkan menjadi bentuk aljabar linier:
 
-    $$\Sigma_{t,g,i}\Phi_{g,i}V_{i}=\sum_{i^{\prime}=1}^{I}Q_{g,i^{\prime}}P_{g,i^{\prime}}V_{i^{\prime}}+\sum_{m=1}^{M}J_{g,m}^{-}P_{g,im}S_{m}$$
+$$\Sigma_{t,g,i}\Phi_{g,i}V_{i}=\sum_{i^{\prime}=1}^{I}Q_{g,i^{\prime}}P_{g,i^{\prime}}V_{i^{\prime}}+\sum_{m=1}^{M}J_{g,m}^{-}P_{g,im}S_{m}$$
 
     **Penjelasan Parameter Kunci (Probabilitas Tumbukan):**
     Inti dari CPM adalah menghitung empat parameter probabilitas $P$ berikut sebelum iterasi fluks dimulai:
@@ -1903,7 +1900,7 @@ Ini adalah potongan ilustratif untuk tiga titik pada satu baris mesh. Pada mesh 
 
     Bentuk dasar kelompok-energi (groupwise) dari NTE untuk suatu sistem dengan batas $\partial R$ dinyatakan sebagai:
 
-    $$\Omega\cdot\nabla\phi_{g}(r,\Omega)+\Sigma_{t,g}\phi_{g}(r,\Omega)=Q_{g}(r,\Omega)$$
+$$\Omega\cdot\nabla\phi_{g}(r,\Omega)+\Sigma_{t,g}\phi_{g}(r,\Omega)=Q_{g}(r,\Omega)$$
 
     **Dimana:**
 
@@ -1912,17 +1909,17 @@ Ini adalah potongan ilustratif untuk tiga titik pada satu baris mesh. Pada mesh 
     * $Q_{g}(r,\Omega)$: Suku sumber total.
 
     Sumber total $Q_{g}(r,\Omega)$ adalah gabungan dari sumber fisi (pembelahan) $Q_{f,g}$ dan sumber hamburan (scattering) $Q_{s,g}$:
-    $$Q_{g}(r,\Omega)=Q_{f,g}(r)+Q_{s,g}(r,\Omega)$$
+$$Q_{g}(r,\Omega)=Q_{f,g}(r)+Q_{s,g}(r,\Omega)$$
 
     Jika dijabarkan, persamaan sumber fisi dan hamburan adalah:
-    $$Q_{f,g}(r,\Omega)=\sum_{g=1}\frac{\chi(r,\Omega)}{4\pi k_{eff}}\int_{4\pi}(\nu\Sigma_{f,g}(r))\phi(r,\Omega)d\Omega$$
+$$Q_{f,g}(r,\Omega)=\sum_{g=1}\frac{\chi(r,\Omega)}{4\pi k_{eff}}\int_{4\pi}(\nu\Sigma_{f,g}(r))\phi(r,\Omega)d\Omega$$
 
-    $$Q_{S,g}(r,\Omega)=\sum_{g^{\prime}=1}^{G}\int_{0}^{4\pi}\Sigma_{S,g^{\prime}g}(r,\Omega^{\prime}\rightarrow\Omega)\phi_{g^{\prime}}(r,\Omega^{\prime})d\Omega^{\prime}$$
+$$Q_{S,g}(r,\Omega)=\sum_{g^{\prime}=1}^{G}\int_{0}^{4\pi}\Sigma_{S,g^{\prime}g}(r,\Omega^{\prime}\rightarrow\Omega)\phi_{g^{\prime}}(r,\Omega^{\prime})d\Omega^{\prime}$$
 
     Adapun kondisi batas (boundary condition) sistem ini ditentukan oleh:
 
 
-    $$\phi_{g}(r,\Omega)=f(r,\Omega),\quad r \in \partial R,\quad \Omega\cdot n<0$$
+$$\phi_{g}(r,\Omega)=f(r,\Omega),\quad r \in \partial R,\quad \Omega\cdot n<0$$
 
     Ini berarti fluks sudut yang masuk dari luar didistribusikan sebagai suatu fungsi $f$ pada batas eksternal sistem.
 
@@ -1930,22 +1927,22 @@ Ini adalah potongan ilustratif untuk tiga titik pada satu baris mesh. Pada mesh 
 
     Dalam sistem koordinat Kartesian, arah $\Omega$ direpresentasikan oleh komponen vektor kecepatan terhadap jarak tempuh (lintasan/sinar $s$):
 
-    $$\Omega=\Omega_{x}\vec{i}+\Omega_{y}\vec{j}+\Omega_{z}\vec{k}=\frac{dx}{ds}\vec{i}+\frac{dy}{ds}\vec{j}+\frac{dz}{ds}\vec{k}$$
+$$\Omega=\Omega_{x}\vec{i}+\Omega_{y}\vec{j}+\Omega_{z}\vec{k}=\frac{dx}{ds}\vec{i}+\frac{dy}{ds}\vec{j}+\frac{dz}{ds}\vec{k}$$
 
     Suku kebocoran (leakage term) $\Omega\cdot\nabla\phi$ dalam NTE melibatkan turunan parsial ruang ($\nabla\phi$). Dengan aturan rantai (chain rule) dalam kalkulus, kita bisa menyederhanakan turunan parsial ini menjadi operator diferensial biasa di sepanjang garis lurus $s$:
 
-    $$\frac{d\phi}{ds}=\frac{\partial\phi}{\partial x}\frac{dx}{ds}+\frac{\partial\phi}{\partial y}\frac{dy}{ds}+\frac{\partial\phi}{\partial z}\frac{dz}{ds}$$
+$$\frac{d\phi}{ds}=\frac{\partial\phi}{\partial x}\frac{dx}{ds}+\frac{\partial\phi}{\partial y}\frac{dy}{ds}+\frac{\partial\phi}{\partial z}\frac{dz}{ds}$$
 
 
     Substitusikan $\Omega_{x} = \frac{dx}{ds}$, $\Omega_{y} = \frac{dy}{ds}$, dan $\Omega_{z} = \frac{dz}{ds}$, maka:
 
-    $$\frac{d\phi}{ds}=\Omega_{x}\frac{\partial\phi}{\partial x}+\Omega_{y}\frac{\partial\phi}{\partial y}+\Omega_{z}\frac{\partial\phi}{\partial z}$$
+$$\frac{d\phi}{ds}=\Omega_{x}\frac{\partial\phi}{\partial x}+\Omega_{y}\frac{\partial\phi}{\partial y}+\Omega_{z}\frac{\partial\phi}{\partial z}$$
 
-    $$\frac{d\phi}{ds}=\Omega\cdot\nabla\phi$$
+$$\frac{d\phi}{ds}=\Omega\cdot\nabla\phi$$
 
     Dengan keistimewaan ini, NTE yang awalnya rumit berubah menjadi Persamaan Diferensial Biasa (PDB) orde pertama di sepanjang garis linier tertentu dengan arah $\Omega_{m}$:
 
-    $$\frac{d\phi(r_{0}+s\Omega_{m},\Omega_{m})}{ds}+\Sigma_{t}(r_{0}+s\Omega_{m})\phi(r_{0}+s\Omega_{m},\Omega_{m})=Q(r_{0}+s\Omega_{m},\Omega_{m})$$
+$$\frac{d\phi(r_{0}+s\Omega_{m},\Omega_{m})}{ds}+\Sigma_{t}(r_{0}+s\Omega_{m})\phi(r_{0}+s\Omega_{m},\Omega_{m})=Q(r_{0}+s\Omega_{m},\Omega_{m})$$
 
     Di mana $r_{0}$ adalah titik awal sinar karakteristik dan $s$ adalah jarak dari titik awal di sepanjang arah $\Omega_{m}$.
 
@@ -1955,41 +1952,41 @@ Ini adalah potongan ilustratif untuk tiga titik pada satu baris mesh. Pada mesh 
 
     Persamaan diferensial kita di wilayah kecil $i$ menyederhana menjadi:
 
-    $$\frac{d\phi}{ds} + \Sigma_{t,i}\phi = Q_i$$
+$$\frac{d\phi}{ds} + \Sigma_{t,i}\phi = Q_i$$
 
     **Langkah Penurunan:**
 
     1. Kalikan kedua sisi dengan faktor integrasi $e^{\int \Sigma_{t,i} ds} = e^{\Sigma_{t,i}s}$:
 
-    $$e^{\Sigma_{t,i}s} \frac{d\phi}{ds} + e^{\Sigma_{t,i}s} \Sigma_{t,i}\phi = Q_i e^{\Sigma_{t,i}s}$$
+$$e^{\Sigma_{t,i}s} \frac{d\phi}{ds} + e^{\Sigma_{t,i}s} \Sigma_{t,i}\phi = Q_i e^{\Sigma_{t,i}s}$$
 
 
     2. Sisi kiri persamaan sekarang merupakan bentuk turunan dari produk $(\phi \cdot e^{\Sigma_{t,i}s})$:
 
-    $$\frac{d}{ds} \left( \phi \cdot e^{\Sigma_{t,i}s} \right) = Q_i e^{\Sigma_{t,i}s}$$
+$$\frac{d}{ds} \left( \phi \cdot e^{\Sigma_{t,i}s} \right) = Q_i e^{\Sigma_{t,i}s}$$
 
     3. Integralkan kedua sisi dari titik masuk ($s=0$) hingga jarak $s$:
 
-    $$\int_{0}^{s} \frac{d}{ds} \left( \phi \cdot e^{\Sigma_{t,i}s} \right) ds = \int_{0}^{s} Q_i e^{\Sigma_{t,i}s} ds$$
+$$\int_{0}^{s} \frac{d}{ds} \left( \phi \cdot e^{\Sigma_{t,i}s} \right) ds = \int_{0}^{s} Q_i e^{\Sigma_{t,i}s} ds$$
 
 
-    $$\phi(s) e^{\Sigma_{t,i}s} - \phi(0) e^0 = \frac{Q_i}{\Sigma_{t,i}} \left[ e^{\Sigma_{t,i}s} \right]_{0}^{s}$$
+$$\phi(s) e^{\Sigma_{t,i}s} - \phi(0) e^0 = \frac{Q_i}{\Sigma_{t,i}} \left[ e^{\Sigma_{t,i}s} \right]_{0}^{s}$$
 
 
-    $$\phi(s) e^{\Sigma_{t,i}s} - \phi^{in} = \frac{Q_i}{\Sigma_{t,i}} (e^{\Sigma_{t,i}s} - 1)$$
+$$\phi(s) e^{\Sigma_{t,i}s} - \phi^{in} = \frac{Q_i}{\Sigma_{t,i}} (e^{\Sigma_{t,i}s} - 1)$$
 
 
     4. Kalikan semua sisi dengan $e^{-\Sigma_{t,i}s}$ untuk mendapatkan $\phi(s)$:
 
-    $$\phi(s) = \phi^{in} e^{-\Sigma_{t,i}s} + \frac{Q_i}{\Sigma_{t,i}} (1 - e^{-\Sigma_{t,i}s})$$
+$$\phi(s) = \phi^{in} e^{-\Sigma_{t,i}s} + \frac{Q_i}{\Sigma_{t,i}} (1 - e^{-\Sigma_{t,i}s})$$
 
     Ini menghasilkan **Persamaan 5.10**:
 
-    $$\phi_{i,k}(r_{0}+s\Omega_{m},\Omega_{m})=\phi_{i,k}^{in}(\Omega_{m})\exp(-\Sigma_{t,i}s)+\frac{Q_{i,k}(\Omega_{m})}{\Sigma_{t,i}}[1-\exp(-\Sigma_{t,i}s)]$$
+$$\phi_{i,k}(r_{0}+s\Omega_{m},\Omega_{m})=\phi_{i,k}^{in}(\Omega_{m})\exp(-\Sigma_{t,i}s)+\frac{Q_{i,k}(\Omega_{m})}{\Sigma_{t,i}}[1-\exp(-\Sigma_{t,i}s)]$$
 
     Jika kita ingin mencari fluks sudut yang *keluar* (outgoing flux) dari wilayah $D_i$, kita ganti $s$ dengan panjang total lintasan $S_{i,k}$ di daerah tersebut:
 
-    $$\phi_{i,k}^{out}(\Omega_{m})=\phi_{i,k}^{in}(\Omega_{m})\exp(-\Sigma_{t,i}S_{i,k})+\frac{Q_{i,k}(\Omega_{m})}{\Sigma_{t,i}}[1-\exp(-\Sigma_{t,i}S_{i,k})]$$
+$$\phi_{i,k}^{out}(\Omega_{m})=\phi_{i,k}^{in}(\Omega_{m})\exp(-\Sigma_{t,i}S_{i,k})+\frac{Q_{i,k}(\Omega_{m})}{\Sigma_{t,i}}[1-\exp(-\Sigma_{t,i}S_{i,k})]$$
 
 
 * Penurunan Rumus 3: Rata-Rata Fluks Segmen (Persamaan 5.12)
@@ -1998,38 +1995,38 @@ Ini adalah potongan ilustratif untuk tiga titik pada satu baris mesh. Pada mesh 
 
     Dengan rumus:
 
-    $$\bar{\phi}_{i,k}(\Omega_{m}) \cdot S_{i,m,k} = \int_{0}^{S_{i,m,k}} \left[ \phi_{i,k}^{in} \exp(-\Sigma_{t,i}s) + \frac{Q_i}{\Sigma_{t,i}} (1 - \exp(-\Sigma_{t,i}s)) \right] ds$$
+$$\bar{\phi}_{i,k}(\Omega_{m}) \cdot S_{i,m,k} = \int_{0}^{S_{i,m,k}} \left[ \phi_{i,k}^{in} \exp(-\Sigma_{t,i}s) + \frac{Q_i}{\Sigma_{t,i}} (1 - \exp(-\Sigma_{t,i}s)) \right] ds$$
 
     **Langkah Penurunan Integrasi:**
 
     1. Bagi integral tersebut menjadi dua bagian yang mudah diselesaikan:
 
-    $$\int_{0}^{S} \phi^{in} e^{-\Sigma_t s} ds + \int_{0}^{S} \frac{Q_i}{\Sigma_t} ds - \int_{0}^{S} \frac{Q_i}{\Sigma_t} e^{-\Sigma_t s} ds$$
+$$\int_{0}^{S} \phi^{in} e^{-\Sigma_t s} ds + \int_{0}^{S} \frac{Q_i}{\Sigma_t} ds - \int_{0}^{S} \frac{Q_i}{\Sigma_t} e^{-\Sigma_t s} ds$$
 
     2. Evaluasi integralnya:
 
-    $$
-    \begin{aligned}
-    & = \left[ -\frac{\phi^{in}}{\Sigma_t} e^{-\Sigma_t s} \right]_{0}^{S} \\
-    & + \left[ \frac{Q_i}{\Sigma_t} s \right]_{0}^{S} - \left[ -\frac{Q_i}{\Sigma_t^2} e^{-\Sigma_t s} \right]_{0}^{S} \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& = \left[ -\frac{\phi^{in}}{\Sigma_t} e^{-\Sigma_t s} \right]_{0}^{S} \\
+& + \left[ \frac{Q_i}{\Sigma_t} s \right]_{0}^{S} - \left[ -\frac{Q_i}{\Sigma_t^2} e^{-\Sigma_t s} \right]_{0}^{S} \\
+\end{aligned}
+$$
 
-    $$= -\frac{\phi^{in}}{\Sigma_t}(e^{-\Sigma_t S} - 1) + \frac{Q_i}{\Sigma_t}S + \frac{Q_i}{\Sigma_t^2}(e^{-\Sigma_t S} - 1)$$
+$$= -\frac{\phi^{in}}{\Sigma_t}(e^{-\Sigma_t S} - 1) + \frac{Q_i}{\Sigma_t}S + \frac{Q_i}{\Sigma_t^2}(e^{-\Sigma_t S} - 1)$$
 
     3. Kita susun ulang dan kelompokkan suku yang mengandung $(e^{-\Sigma_t S} - 1)$:
 
-    $$= \frac{Q_i}{\Sigma_t}S + \frac{1}{\Sigma_t} \left[ \phi^{in} - \left( \phi^{in}e^{-\Sigma_t S} + \frac{Q_i}{\Sigma_t}(1 - e^{-\Sigma_t S}) \right) \right]$$
+$$= \frac{Q_i}{\Sigma_t}S + \frac{1}{\Sigma_t} \left[ \phi^{in} - \left( \phi^{in}e^{-\Sigma_t S} + \frac{Q_i}{\Sigma_t}(1 - e^{-\Sigma_t S}) \right) \right]$$
 
 
     4. Perhatikan bahwa bagian di dalam kurung lengkung terakhir tepat sama dengan definisi **fluks sudut keluar** ($\phi^{out}$) pada Persamaan 5.11!
 
-    $$= \frac{Q_i}{\Sigma_t}S + \frac{\phi^{in} - \phi^{out}}{\Sigma_t}$$
+$$= \frac{Q_i}{\Sigma_t}S + \frac{\phi^{in} - \phi^{out}}{\Sigma_t}$$
 
     Hasil akhirnya menjadi Persamaan 5.12:
 
 
-    $$\bar{\phi}_{i,k}(\Omega_{m}) \cdot S_{i,m,k} = \frac{Q_{i}(\Omega_{m})}{\Sigma_{t,i}}S_{i,m,k}+\frac{\Delta\phi_{i,k}(\Omega_{m})}{\Sigma_{t,i}}$$
+$$\bar{\phi}_{i,k}(\Omega_{m}) \cdot S_{i,m,k} = \frac{Q_{i}(\Omega_{m})}{\Sigma_{t,i}}S_{i,m,k}+\frac{\Delta\phi_{i,k}(\Omega_{m})}{\Sigma_{t,i}}$$
 
     Setelah fluks per segmen ini diketahui, kita dapat menghitung rata-rata fluks di seluruh area (region) dengan menjumlahkannya sesuai luas spasial setiap sinar (Persamaan 5.13) , dan akhirnya mendapatkan Fluks Skalar dengan menjumlahkannya ke seluruh sudut berbobot $\omega_m$ (Persamaan 5.14).
 
@@ -2045,9 +2042,9 @@ Teori dasar MOC itu sederhana; pembeda utamanya terletak pada algoritma penelusu
 
     **Kondisi Batas Pantulan (Reflective):** Menggunakan "Interpolasi Direksional". Fluks masuk $\phi_{l}^{in}$ diproksimasi dari sudut-sudut fluks terdekat yang memantul keluar. Rumusnya adalah interpolasi linear sederhana:
 
-    $$\phi_{l}^{in}=\phi_{r}^{out}=C_{l}\cdot\phi_{m}^{out}+(1-C_{l})\cdot\phi_{n}^{out}$$
+$$\phi_{l}^{in}=\phi_{r}^{out}=C_{l}\cdot\phi_{m}^{out}+(1-C_{l})\cdot\phi_{n}^{out}$$
 
-    $$C_{l}=\frac{\theta_{n}-\theta_{r}}{\theta_{n}-\theta_{m}}$$
+$$C_{l}=\frac{\theta_{n}-\theta_{r}}{\theta_{n}-\theta_{m}}$$
 
     Pada metode karakteristik (MOC) 2D dengan *Long Ray Tracing*, garis-garis sinar karakteristik ditembakkan melintasi keseluruhan teras reaktor. Ketika sebuah sinar menabrak batas luar yang bersifat memantul (seperti cermin), secara ideal sinar tersebut akan memantul kembali ke dalam reaktor dengan sudut pantul ideal $\theta_r$.
 
@@ -2060,78 +2057,78 @@ Teori dasar MOC itu sederhana; pembeda utamanya terletak pada algoritma penelusu
     Misalkan sudut pantul ideal $\theta_r$ berada di antara dua sudut arah diskret komputer $\theta_m$ dan $\theta_n$, sedemikian rupa sehingga memenuhi kondisi:
 
 
-    $$\theta_m \le \theta_r \le \theta_n$$
+$$\theta_m \le \theta_r \le \theta_n$$
 
     Kita tahu dari prinsip kalkulus dasar bahwa persamaan interpolasi linear antara dua titik koordinat $(\theta_m, \phi_m^{out})$ dan $(\theta_n, \phi_n^{out})$ untuk mencari nilai fluks $\phi_r^{out}$ pada sudut $\theta_r$ adalah sebagai berikut:
 
 
-    $$\frac{\phi_r^{out} - \phi_m^{out}}{\theta_r - \theta_m} = \frac{\phi_n^{out} - \phi_m^{out}}{\theta_n - \theta_m}$$
+$$\frac{\phi_r^{out} - \phi_m^{out}}{\theta_r - \theta_m} = \frac{\phi_n^{out} - \phi_m^{out}}{\theta_n - \theta_m}$$
 
     Mari kita turunkan persamaan di atas langkah demi langkah tanpa ada yang terlewat:
 
     **Langkah 1:** Kalikan kedua ruas dengan $(\theta_r - \theta_m)$ untuk mengisolasi suku fluks di ruas kiri:
 
 
-    $$\phi_r^{out} - \phi_m^{out} = \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \left( \phi_n^{out} - \phi_m^{out} \right)$$
+$$\phi_r^{out} - \phi_m^{out} = \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \left( \phi_n^{out} - \phi_m^{out} \right)$$
 
     **Langkah 2:** Distribusikan pengali ke dalam kurung siku di ruas kanan:
 
 
-    $$
-    \begin{aligned}
-    & \phi_r^{out} - \phi_m^{out} = \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_n^{out} \\
-    & - \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_m^{out} \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \phi_r^{out} - \phi_m^{out} = \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_n^{out} \\
+& - \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_m^{out} \\
+\end{aligned}
+$$
 
     **Langkah 3:** Pindahkan $-\phi_m^{out}$ dari ruas kiri ke ruas kanan:
 
 
-    $$
-    \begin{aligned}
-    & \phi_r^{out} = \phi_m^{out} - \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_m^{out} \\
-    & + \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_n^{out} \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \phi_r^{out} = \phi_m^{out} - \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_m^{out} \\
+& + \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_n^{out} \\
+\end{aligned}
+$$
 
     **Langkah 4:** Kelompokkan suku-suku yang mengandung variabel $\phi_m^{out}$:
 
 
-    $$
-    \begin{aligned}
-    & \phi_r^{out} = \left( 1 - \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_m^{out} \\
-    & + \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_n^{out} \\
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+& \phi_r^{out} = \left( 1 - \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_m^{out} \\
+& + \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_n^{out} \\
+\end{aligned}
+$$
 
     **Langkah 5:** Sederhanakan bentuk pecahan di dalam kurung koefisien $\phi_m^{out}$ dengan menyamakan penyebutnya:
 
-    $$1 - \frac{\theta_r - \theta_m}{\theta_n - \theta_m} = \frac{(\theta_n - \theta_m) - (\theta_r - \theta_m)}{\theta_n - \theta_m}$$
+$$1 - \frac{\theta_r - \theta_m}{\theta_n - \theta_m} = \frac{(\theta_n - \theta_m) - (\theta_r - \theta_m)}{\theta_n - \theta_m}$$
 
-    $$= \frac{\theta_n - \theta_m - \theta_r + \theta_m}{\theta_n - \theta_m}$$
+$$= \frac{\theta_n - \theta_m - \theta_r + \theta_m}{\theta_n - \theta_m}$$
 
-    $$= \frac{\theta_n - \theta_r}{\theta_n - \theta_m}$$
+$$= \frac{\theta_n - \theta_r}{\theta_n - \theta_m}$$
 
     **Langkah 6:** Substitusikan kembali hasil penyederhanaan tersebut ke dalam persamaan fluks utama kita:
 
-    $$\phi_r^{out} = \left( \frac{\theta_n - \theta_r}{\theta_n - \theta_m} \right) \phi_m^{out} + \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_n^{out}$$
+$$\phi_r^{out} = \left( \frac{\theta_n - \theta_r}{\theta_n - \theta_m} \right) \phi_m^{out} + \left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right) \phi_n^{out}$$
 
     misal :
-    $$C_l = \frac{\theta_n - \theta_r}{\theta_n - \theta_m}$$
+$$C_l = \frac{\theta_n - \theta_r}{\theta_n - \theta_m}$$
 
     Mari kita cek apa yang terjadi pada koefisien pengali untuk arah $n$, yaitu $\left( \frac{\theta_r - \theta_m}{\theta_n - \theta_m} \right)$, jika dinyatakan dalam bentuk $C_l$:
 
-    $$1 - C_l = 1 - \frac{\theta_n - \theta_r}{\theta_n - \theta_m}$$
+$$1 - C_l = 1 - \frac{\theta_n - \theta_r}{\theta_n - \theta_m}$$
 
-    $$= \frac{(\theta_n - \theta_m) - (\theta_n - \theta_r)}{\theta_n - \theta_m}$$
+$$= \frac{(\theta_n - \theta_m) - (\theta_n - \theta_r)}{\theta_n - \theta_m}$$
 
-    $$= \frac{\theta_n - \theta_m - \theta_n + \theta_r}{\theta_n - \theta_m}$$
+$$= \frac{\theta_n - \theta_m - \theta_n + \theta_r}{\theta_n - \theta_m}$$
 
-    $$= \frac{\theta_r - \theta_m}{\theta_n - \theta_m}$$
+$$= \frac{\theta_r - \theta_m}{\theta_n - \theta_m}$$
 
     Ternyata polanya sangat konsisten dan membentuk nilai $(1 - C_l)$. Dengan demikian, kita mendapatkan formula utuh persamaannya:
 
-    $$\phi_l^{in} = \phi_r^{out} = C_l \cdot \phi_m^{out} + (1 - C_l) \cdot \phi_n^{out}$$
+$$\phi_l^{in} = \phi_r^{out} = C_l \cdot \phi_m^{out} + (1 - C_l) \cdot \phi_n^{out}$$
 
     Interpretasi Fisik Nilai $C_l$
 
@@ -2145,7 +2142,7 @@ Teori dasar MOC itu sederhana; pembeda utamanya terletak pada algoritma penelusu
 
     **Aturan Susunan Sudut:** Agar sinar ini menyambung dengan sempurna antar modul, sudut azimuthal sinar tidak boleh sembarangan. Sudutnya terikat oleh persamaan geometri berikut:
 
-    $$\tan(\varphi) = (\Delta y / \Delta x) \frac{n_x}{n_y}$$
+$$\tan(\varphi) = (\Delta y / \Delta x) \frac{n_x}{n_y}$$
 
     Di mana $\Delta x, \Delta y$ adalah jarak jaring, dan $n_x, n_y$ adalah jumlah jarak pada sumbu X dan Y.
 
@@ -2160,39 +2157,39 @@ Pembentukan sinar modular 3D dilakukan dalam dua tahap: mengurus sudut azimuthal
 1. Menentukan Sudut Azimuthal ($\varphi$) dan Jarak Sinar
     Sama seperti 2D, sinar pada bidang X-Y dibatasi oleh ukuran jaring (mesh) agar posisinya periodik. Rumusnya adalah:
 
-    $$\tan(\varphi) = \left(\frac{\Delta y}{\Delta x}\right) \frac{n_x}{n_y}$$
+$$\tan(\varphi) = \left(\frac{\Delta y}{\Delta x}\right) \frac{n_x}{n_y}$$
 
     **Penurunan Jarak Antar Sinar ($\delta_\varphi$):**
     Jika kita melihat sumbu X, jarak antara titik-titik tembus sinar di batas modul adalah $\frac{\Delta x}{n_x}$. Jarak tegak lurus (spasi) antara dua sinar sejajar ($\delta_\varphi$) dapat dicari menggunakan trigonometri dasar segitiga siku-siku:
 
-    $$\delta_{\varphi}=\frac{\Delta x}{n_x}\sin(\varphi)$$
+$$\delta_{\varphi}=\frac{\Delta x}{n_x}\sin(\varphi)$$
 
     Atau, jika ditinjau dari sumbu Y (jarak antar titik $\frac{\Delta y}{n_y}$):
 
-    $$\delta_{\varphi}=\frac{\Delta y}{n_y}\cos(\varphi)$$
+$$\delta_{\varphi}=\frac{\Delta y}{n_y}\cos(\varphi)$$
 
 2. Menentukan Sudut Polar ($\theta$) dan Jarak Vertikal**
     Ide ini diperluas untuk sudut polar. Bayangkan sinar 2D tadi diangkat ke atas menjadi "potongan bidang" (cutaway sections) yang tegak lurus dengan bidang X-Y.
     Panjang total jejak sinar di bidang dasar (azimuthal) kita sebut $\Delta l_\varphi$, yang merupakan penjumlahan dari semua segmen garis di bidang tersebut:
 
-    $$\Delta l_{\varphi}=\sum_{k}S_{k}$$
+$$\Delta l_{\varphi}=\sum_{k}S_{k}$$
 
     Sudut elevasi sinar dari bidang X-Y kita sebut $\theta'$ (sudut terhadap bidang horizontal). Agar sinar ini konsisten di sumbu Z, sudut elevasi harus memenuhi:
 
-    $$\tan(\theta^{\prime})=\left(\frac{\Delta z}{\Delta l_{\varphi}}\right)\frac{n_{\varphi}}{n_z}$$
+$$\tan(\theta^{\prime})=\left(\frac{\Delta z}{\Delta l_{\varphi}}\right)\frac{n_{\varphi}}{n_z}$$
 
     Namun, dalam fisika reaktor, sudut polar $\theta$ biasanya diukur dari sumbu Z vertikal (sudut zenith), sehingga:
 
-    $$\theta=\frac{\pi}{2}-\theta^{\prime}$$
+$$\theta=\frac{\pi}{2}-\theta^{\prime}$$
 
     Sama dengan penurunan 2D, jarak spasi antar sinar paralel di arah polar ($\delta_\theta$) adalah:
 
-    $$\delta_{\theta}=\frac{\Delta l_{\varphi}}{n_{\varphi}}\sin\theta^{\prime}=\frac{\Delta z}{n_z}\cos\theta^{\prime}$$
+$$\delta_{\theta}=\frac{\Delta l_{\varphi}}{n_{\varphi}}\sin\theta^{\prime}=\frac{\Delta z}{n_z}\cos\theta^{\prime}$$
 
     **Luas Penampang Sinar:**
     Karena sekarang sinar 3D berbentuk "tabung/prisma" abstrak, luas penampang tegak lurus dari satu sinar dengan arah $\Omega(\varphi,\theta)$ adalah perkalian dari spasi horizontal dan spasi vertikal:
 
-    $$\delta A(\Omega)=\delta_{\varphi}\delta_{\theta}$$
+$$\delta A(\Omega)=\delta_{\varphi}\delta_{\theta}$$
 
     Metode ini memungkinkan perhitungan MOC 3D untuk seluruh teras reaktor tanpa perlu aproksimasi apa pun pada antarmuka batas modul maupun batas pantulan (*reflective boundary*).
 
@@ -2200,7 +2197,7 @@ Pembentukan sinar modular 3D dilakukan dalam dua tahap: mengurus sudut azimuthal
 
     Untuk kuadratur simetris, hubungan antara jumlah arah $M$ di dalam satu oktan (1/8 bola) dengan orde $S_N$ (orde diskretisasi) adalah:
 
-    $$M=\frac{(N/2)(N/2+1)}{2}$$
+$$M=\frac{(N/2)(N/2+1)}{2}$$
 
     **Penurunan Rumus Bobot ($w_k$) Menggunakan Harmonik Bola (Spherical Harmonics):**
 
@@ -2208,22 +2205,22 @@ Pembentukan sinar modular 3D dilakukan dalam dua tahap: mengurus sudut azimuthal
 
     2. Fungsi sebarang $f(\theta,\varphi)$ di ruang ini bisa diekspansi menyerupai deret Taylor/Fourier, namun menggunakan Harmonik Bola:
 
-    $$f(\theta,\varphi)=\sum_{n}^{\infty}\sum_{m=0}^{n}a_{n,m}Y_{2n}^{2m}(\theta,\varphi)$$
+$$f(\theta,\varphi)=\sum_{n}^{\infty}\sum_{m=0}^{n}a_{n,m}Y_{2n}^{2m}(\theta,\varphi)$$
 
     3. Konsep dasar integrasi numerik adalah mengganti proses integral analitik dengan penjumlahan perkalian nilai fungsi pada titik tertentu dengan suatu bobot $w_k$:
 
-    $$\int_{0}^{\pi/2}\int_{0}^{\pi/2}f(\theta,\varphi)\sin\theta d\theta d\varphi=\sum_{k}w_{k}f(\theta_{k},\varphi_{k})$$
+$$\int_{0}^{\pi/2}\int_{0}^{\pi/2}f(\theta,\varphi)\sin\theta d\theta d\varphi=\sum_{k}w_{k}f(\theta_{k},\varphi_{k})$$
 
     4. Jika persamaan deret fungsi (Langkah 2) disubstitusikan ke persamaan integrasi numerik (Langkah 3), maka setiap basis fungsi $Y_{2n}^{2m}$ harus memenuhi syarat kekekalan integral numerik tersebut:
 
-    $$\int_{0}^{\pi/2}\int_{0}^{\pi/2}Y_{2n}^{2m}(\theta,\varphi)\sin\theta d\theta d\varphi=\sum_{k}w_{k}Y_{2n}^{2m}(\theta_{k},\varphi_{k})$$
+$$\int_{0}^{\pi/2}\int_{0}^{\pi/2}Y_{2n}^{2m}(\theta,\varphi)\sin\theta d\theta d\varphi=\sum_{k}w_{k}Y_{2n}^{2m}(\theta_{k},\varphi_{k})$$
 
 
     **Penyelesaian Akhir:**
     Persamaan di atas sebenarnya adalah sistem persamaan linear (SPL). Kita memiliki sejumlah $M$ sudut diskret (yaitu $k = 1, 2, ..., M$). Oleh karena itu, kita membutuhkan $M$ buah persamaan independen untuk mencari $M$ buah nilai bobot $w_k$. Kita menggunakan variasi indeks $n$ dan $m$ pada fungsi $Y_{2n}^{2m}$ untuk menyusun matriks SPL tersebut:
 
 
-    $$\sum_{k}^{M}w_{k}Y_{2n}^{2m}(\theta_{k},\varphi_{k})=\int_{0}^{\pi/2}\int_{0}^{\pi/2}Y_{2n}^{2m}(\theta,\varphi)\sin\theta d\theta d\varphi$$
+$$\sum_{k}^{M}w_{k}Y_{2n}^{2m}(\theta_{k},\varphi_{k})=\int_{0}^{\pi/2}\int_{0}^{\pi/2}Y_{2n}^{2m}(\theta,\varphi)\sin\theta d\theta d\varphi$$
 
     *(Untuk $n=0,1,\cdots,N$; $m=0,1,\cdots,n$; total persamaan $M$)*.
     Dengan memecahkan matriks ini, kita akan mendapatkan bobot valid $w_k$ untuk set sudut arah apa pun yang dibentuk oleh ukuran modul kita.
